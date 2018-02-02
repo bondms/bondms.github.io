@@ -1,5 +1,4 @@
 ---
-layout: post
 title: Iterating over a filesystem
 ---
 
