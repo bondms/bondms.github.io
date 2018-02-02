@@ -1,0 +1,9 @@
+# Backups
+*~
+
+# Jekyll
+/_site/
+/.jekyll-metadata
+
+# Locks
+.~lock.*
