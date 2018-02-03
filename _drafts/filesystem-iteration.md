@@ -12,7 +12,7 @@ There are many computing tasks that are easy to do in a manner that works most o
 
 A naive implementation will often fail when encountering file or directory names that contain:
 
-* Whitespace: spaces or tabs.
+* Whitespace: space, tab, and even new-line characters are possible in file names.
 * Quote characters: single (‘) or double (“).
 * Wildcard characters (* or ?).
 * Special characters that are interpreted by the shell, such as a dollar sign ($) or backtick (`).
@@ -50,6 +50,16 @@ By default ```xargs``` runs once even if it receives no input which can cause fa
 find -type f -print0 | xargs --null file
 ```
 
+### Failure to handle the maximum allowed command-line length
+
+```xargs``` automatically splits long command-lines into multiple calls. A naive script that expects exactly one call may fail to handle this, for example:
+
+```bash
+find -type f -print0 | xargs --null wc
+```
+
+The wc command prints a line for each file processed plus a summary line for the total of all the files. However, if multiple calls are made (because there are many files in the folder being processed) then there will be several summary lines, each giving the total of a subset of the files.
+
 ## Considerations
 
 * Terminate filenames with nul, the only character not allowed in POSIX paths (find -print0, sort --zero-terminated, xargs --null).
@@ -62,8 +72,10 @@ find -type f -print0 | xargs --null file
 * Consider which types of files to process; files, directories, links, etc. (find -type option).
 * Consider whether to include the top-level directory. For find, this is "." if no path is specified. Exclude with -mindepth 1 find option.
 * Consider whether to recurse into subfolders. Disable with find -maxdepth 1 option.
+* Consider whether to follow symlinks and whether to traverse across filesystems.
 * Specify the arguments to find in the appropriate order, especially -mindepth, -maxdepth etc.
 * Find appears to precede the item with a path (./ if no root search path is specified), so filenames that look like options (e.g. --file-name.txt) are not a problem, but it still might be good practice to consider these and protect against injection by using the -- argument to commands that support it.
+* Beware of long command-lines being split into multiple.
 
 ## Examples
 
@@ -111,4 +123,3 @@ An alternative example of making a shell call, using env rather than sed (doesn'
 find -print0 |
     xargs --null -I '{}' env F='{}' bash -c "echo \"\$F\""
 ```
-
