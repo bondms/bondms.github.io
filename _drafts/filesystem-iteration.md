@@ -36,7 +36,7 @@ find -print0 |
 ```
 
 ```
-$ touch File\ name\ with\ single\ quote\ \'.txt 
+$ touch "File name with single quote '.txt"
 $ ls -la
 total 0
 drwx------ 2 bondms bondms 60 Feb  4 12:42 .
@@ -55,13 +55,13 @@ The ```bash``` command string attempts to handle special characters within file 
 Use of the ```-exec``` and ```-execdir``` options of ```find``` without care can lead to this error. For example:
 
 ```bash
-( find -execdir ls --bad-arg \{\} \; ) &&
+( find -execdir ls --bad-arg {} \; ) &&
   echo No error reported ||
   echo Error reported
 ```
 
 ```
-$ ( find -execdir ls --bad-arg \{\} \; ) && echo No error reported || echo Error reported
+$ ( find -execdir ls --bad-arg {} \; ) && echo No error reported || echo Error reported
 ls: unrecognised option '--bad-arg'
 Try 'ls --help' for more information.
 No error reported
@@ -149,23 +149,25 @@ In order to avoid these pitfalls and others, take care to consider the following
 
 ## Examples
 
-Multi-item processing (no -I or --max-args passed to xargs):
+Processing items in batches. ```chmod``` accepts accepts one or more non-option arguments so doesn't need to be called once for each item processed:
+
 ```bash
-find -mindepth 1 -maxdepth 1 -type f -print0 |
-    sort --zero-terminated |
-    xargs --null --no-run-if-empty chmod --verbose -w
+find -type f -print0 |
+  xargs --null --no-run-if-empty chmod --verbose -w --
 ```
 
-Single-item processing (otherwise there won't be one "Found:" line printed for each hit:
+Processing items one-by-one. In order to print a "Found: " message for each item individual processing of each item is required:
+
 ```bash
 find -print0 |
-    xargs --null --no-run-if-empty --max-args 1 echo "Found: "
+  xargs --null --no-run-if-empty --max-args 1 echo "Found: "
 ```
 
-Single-item processing with replacement string that doesn't go at the end of the command (use single quotes around the {}):
+If using ```-I{}``` then the ```-max-args 1``` is implicit:
+
 ```bash
 find -print0 |
-    xargs --null -I{} echo 'This item {} has been found.'
+  xargs --null -I{} echo 'This item {} has been found.'
 ```
 
 Processing via a shell call:
