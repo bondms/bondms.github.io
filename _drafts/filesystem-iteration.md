@@ -4,7 +4,7 @@ title: Iterating over a filesystem
 
 # Iterating over a filesystem
 
-There are many computing tasks that are easy to do in a manner that works most of the time but which fail under edge cases. Iterating over files and/or directories in a filesystem, in order to perform a common action on each, is an example.
+There are many computing tasks that are easy to do in a manner that works most of the time but which fail for edge cases. Iterating over files and/or directories in a filesystem, in order to perform a common action on each, is an example.
 
 In this article I will primarily consider shell scripts; use of a programming language would avoid many of the issues described here but at the cost of requring an interpreter or compiler.
 
@@ -12,11 +12,11 @@ In this article I will primarily consider shell scripts; use of a programming la
 
 ### Failure to handle special characters
 
-A naive implementation will often fail when encountering file or directory names that contain:
+A naive implementation will often fail when encountering file or directory names that contain unusual characters, such as:
 
 * Whitespace: space, tab, and even new-line characters are possible in file names.
-* Quote characters: single (‘) or double (“).
-* Wildcard characters (* or ?).
+* Quotes: single (‘) or double (“).
+* Wildcards (* or ?).
 * Special characters that are interpreted by the shell, such as a dollar sign ($) or backtick (`).
 * Characters that are illegal on some filesystem such as colon (:) which is invalid on VFAT but valid on other filesystems.
 * Hypens (-) that can be interpreted as option arguments.
@@ -28,7 +28,7 @@ The ```find``` command, present on many POSIX-type operating systems, includes a
 
 There is a corresponding ```--null``` or ```-0``` argument to ```xargs``` and ```--zero-terminated``` or ```-z``` argument to ```sort```.
 
-Use of these arguments on their own is not always sufficient. The following script, for example, fails to correctly process paths containing single quote (') characters.
+Use of these arguments on their own is not always sufficient. The following script, for example, fails to correctly process paths containing single-quote (') characters.
 
 ```bash
 find -print0 |
@@ -47,8 +47,8 @@ $ find -print0 | xargs --null -I {} bash -c "echo '{}'"
 bash: -c: line 0: unexpected EOF while looking for matching `''
 bash: -c: line 1: syntax error: unexpected end of file
 ```
-The ```bash``` command string attempts to handle special characters within file names by enclosing the name within single quotes, but this doesn't work when a single quote character is present in the file name.
 
+The ```bash``` command string attempts to handle special characters within file names by enclosing the name within single quotes, but this doesn't work when a single quote character is present in the file name.
 
 ### Failure to correctly report an error
 
@@ -67,8 +67,7 @@ Try 'ls --help' for more information.
 No error reported
 ```
 
-The use of the variant of ```-execdir``` which uses ```;``` always returns true. Use the varient which terminates with ```+``` to return true only if the command returns 0.
-TODO: Investigate why the man page documents the reverse of the observed behaviour. When fixed, consider quoting the man page.
+If this case, the error reported by the ```ls``` command was not propagated and the ```find``` command reported success.
 
 ### Failure to correctly handle no items
 
@@ -95,7 +94,7 @@ The ```file``` command expects at least one argument and returns an error if cal
 
 ### Failure to handle the maximum allowed command-line length
 
-```xargs``` automatically splits long command-lines into multiple calls. A naive script that expects exactly one call may fail to handle this, for example:
+ ```xargs``` automatically splits long command-lines into multiple calls. The ```-execdir``` option of ```find``` has similar behaviour. A naive script that expects exactly one call may fail to handle this, for example:
 
 ```bash
 find -type f -print0 |
@@ -104,7 +103,6 @@ find -type f -print0 |
 
 ```
 $ for (( i=100000 ; i=i-1 ; i )); do echo Test data > $i.txt; done
-$ find -type f -print0 | xargs --null wc
 $ find -type f -print0 | xargs --null wc
      1      2     10 ./10000.txt
      1      2     10 ./10001.txt
@@ -132,7 +130,7 @@ $ find -type f -print0 | xargs --null wc
  935 1870 9350 total
 ```
 
-The wc command prints a line for each file processed plus a summary line for the total of all the files. However, if multiple calls are made (because there are many files in the folder being processed) then there will be several summary lines, each giving the total of a subset of the files.
+The wc command prints a line for each file processed plus a summary line for the total of all the files. However, if multiple calls are made (because there are many items being processed) then there will be several summary lines, each giving the total of a subset of the files. The final line of output will not give a correct summary of all the items processed.
 
 ## Considerations
 
