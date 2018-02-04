@@ -184,10 +184,10 @@ find -print0 |
 ```bash
 find -print0 |
   sed "s/'/'\\\''/g" |
-  xargs --null -I {} bash -c "echo This item '{}' has been found."
+  xargs --null -I{} bash -c "echo This item '{}' has been found."
 ```
 
 ```bash
 find -print0 |
-    xargs --null -I '{}' env F='{}' bash -c "echo This item \"\$F\" has been found."
+    xargs --null -I{} env F='{}' bash -c "echo This item \"\$F\" has been found."
 ```
