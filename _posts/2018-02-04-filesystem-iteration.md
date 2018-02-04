@@ -130,7 +130,7 @@ $ find -type f -print0 | xargs --null wc
  935 1870 9350 total
 ```
 
-The wc command prints a line for each file processed plus a summary line for the total of all the files. However, if multiple calls are made (because there are many items being processed) then there will be several summary lines, each giving the total of a subset of the files. The final line of output will not give a correct summary of all the items processed.
+The ```wc``` command prints a line for each file processed plus a summary line for the total of all the files. However, if multiple calls are made (because there are many items being processed) then there will be several summary lines, each giving the total of a subset of the files. The final line of output will not give a correct summary of all the items processed.
 
 ## Considerations
 
