@@ -90,7 +90,7 @@ Usage: file [-bcEhikLlNnprsvzZ0] [--apple] [--extension] [--mime-encoding] [--mi
        file [--help]
 ```
 
-The ```file``` command expects at least one argument and returns an error if called with no arguments.
+The ```file``` command expects at least one argument and returns an error if called with no arguments. The ```--no-run-if-empty``` option to ```xargs``` can help avoid this pitfall.
 
 ### Failure to handle the maximum allowed command-line length
 
@@ -134,20 +134,18 @@ The wc command prints a line for each file processed plus a summary line for the
 
 ## Considerations
 
-* Terminate filenames with nul, the only character not allowed in POSIX paths (find -print0, sort --zero-terminated, xargs --null).
-* Don't use the -exec option of find if you care about security. Instead use -execdir.
-* Don't use the -execdir option of find if you care about catching errors; it hides the exit code of the command. Instead use xargs or --execdir with the + suffix.
-* Use single quotes around filenames to protect special characters (such as `"$) from being mishandled:
-* Escape (all) single quotes in the filenames if passing to a shell (sed with global search and replace).
-* If necessary, handle the case where there are no items found (xargs --no-run-if-empty option).
-* Consider whether it is necessary to limit the processing one item at a time (xargs --max-args or -I options) .
-* Consider which types of files to process; files, directories, links, etc. (find -type option).
-* Consider whether to include the top-level directory. For find, this is "." if no path is specified. Exclude with -mindepth 1 find option.
-* Consider whether to recurse into subfolders. Disable with find -maxdepth 1 option.
+In order to avoid these pitfalls and others, take care to consider the following points when writing scripts to iterate over filesystems:
+
+* Terminate filenames with nul which is the only character not allowed in POSIX paths (```find -print0```, ```sort --zero-terminated```, ```xargs --null```, etc).
+* Don't use the ```-exec``` option of find if you care about security.
+* Be careful using the ```-exec``` or ```-execdir``` options of find if you care about catching errors; they can hide the exit code of the command.
+* Consider using single quotes around filenames to protect special characters from being mishandled, but don't forget that a filename can itself contain single-quote characters that may need escaping.
+* Consider the case where there are no items found.
+* Consider whether to process one item at a time or combine them into a single call. If combining, be aware that there still may be multiple calls to avoid exceeding the maxmimum command-line length.
+* If processing directories, consider whether to include the top-level directory. For ```find``` this can be excluded with ```-mindepth 1```.
+* Consider whether to recurse into subfolders. For ```find``` this can be disable with ```-maxdepth 1```.
 * Consider whether to follow symlinks and whether to traverse across filesystems.
-* Specify the arguments to find in the appropriate order, especially -mindepth, -maxdepth etc.
-* Find appears to precede the item with a path (./ if no root search path is specified), so filenames that look like options (e.g. --file-name.txt) are not a problem, but it still might be good practice to consider these and protect against injection by using the -- argument to commands that support it.
-* Beware of long command-lines being split into multiple.
+* Consider whether it would be possible for a filename to be interpretted as a command option. Often commands accept ```--``` to specify that all following arguments are non-option arguments.
 
 ## Examples
 
