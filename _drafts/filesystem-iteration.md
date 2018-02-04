@@ -170,28 +170,24 @@ find -print0 |
   xargs --null -I{} echo 'This item {} has been found.'
 ```
 
-Processing via a shell call:
+Processing via a shell call. Passing names into a shell (such as ```bash```) requires a little more work. Here are a few approaches that seem to work:
+
 ```bash
-find -type f -print0 | bash -c "
+find -print0 |
+  bash -c "
     while read -r -d $'\0' F
     do
-        echo \"\$F\"
+      echo This item \"\$F\" has been found.
     done"
 ```
-
-TODO: Actually this does work with dollar signs!
-Attempting to solve this problem by escaping single quotes makes the script more complicated and yet it now doesn't work with paths containing dollar characters ($):
 
 ```bash
 find -print0 |
   sed "s/'/'\\\''/g" |
-  xargs --null -I {} bash -c "echo '{}'"
+  xargs --null -I {} bash -c "echo This item '{}' has been found."
 ```
-
-TODO: This also appears to work now!
-An alternative example of making a shell call, using env rather than sed (doesn't work with filenames containing double quote):
 
 ```bash
 find -print0 |
-    xargs --null -I '{}' env F='{}' bash -c "echo \"\$F\""
+    xargs --null -I '{}' env F='{}' bash -c "echo This item \"\$F\" has been found."
 ```
