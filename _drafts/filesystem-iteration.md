@@ -67,8 +67,8 @@ Try 'ls --help' for more information.
 No error reported
 ```
 
-This use of ```-execdir```, which terminates with ```;``` rather than ```+```  doesn't report failure.
-TODO: Quote man page?
+The use of the variant of ```-execdir``` which uses ```;``` always returns true. Use the varient which terminates with ```+``` to return true only if the command returns 0.
+TODO: Investigate why the man page documents the reverse of the observed behaviour. When fixed, consider quoting the man page.
 
 ### Failure to correctly handle no items
 
