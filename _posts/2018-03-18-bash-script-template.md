@@ -8,7 +8,7 @@ Bash is a very convenient scripting language to use, primarily due to its availa
 
 ## Common pitfalls
 
-Although convenient, there some pitfalls of using Bash that should be avoided, such as:
+Although convenient, there are some pitfalls of using Bash that should be avoided, such as:
 
 ### Not checking for errors
 
