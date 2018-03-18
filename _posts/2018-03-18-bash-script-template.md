@@ -48,8 +48,8 @@ HERE="$(readlink -f "$(dirname "$0")")"
 MUTEX_PATH="${MUTEX_PATH:-/var/lock/scripting_$(basename "$0" .sh)}"
 
 (
-    # Use a flock as a mutex to ensure that new files aren't pulled from
-    # the server at the same time as file processing occurs.
+    # Use a flock as a mutex to ensure that one instance of the script
+    # can execute at any one time.
     flock -n 9 || abort "Failed to acquire mutex lock."
 
     log_info "HERE=${HERE}"
