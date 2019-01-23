@@ -54,6 +54,7 @@ set -x
 
 set -e
 set -o pipefail
+set -u
 echo "$0 started."
 
 function log_info()
