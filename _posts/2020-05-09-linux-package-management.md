@@ -4,19 +4,25 @@ title: Linux package management
 
 # Standard tasks
 
-## Installing a package
+## Install a package
 
 ```bash
 sudo apt install <package_name>
 ```
 
-## Installing all available updates
+## Install all available updates
 
 ```bash
 sudo apt-get update
 sudo apt-get dist-upgrade
 sudo apt-get autoremove
 sudo apt-get autoclean
+```
+
+## Install a package from a deb file
+
+```bash
+sudo dpkg -i <path_to_deb_file>
 ```
 
 # Less frequent tasks
