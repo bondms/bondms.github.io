@@ -27,6 +27,12 @@ sudo dpkg -i <path_to_deb_file>
 
 # Less frequent tasks
 
+## Lock/hold a package at the current version
+
+```bash
+sudo apt-mark hold <package_name>
+```
+
 ## List installed packages
 
 ```bash
