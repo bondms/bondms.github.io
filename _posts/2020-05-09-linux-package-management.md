@@ -69,3 +69,8 @@ apt-config dump
 ```bash
 dpkg-reconfigure <package>
 ```
+
+## Uninstall a package
+'''bash
+sudo dpkg -r <package_name>
+'''
