@@ -2,15 +2,17 @@
 title: Linux package management
 ---
 
-# Standard tasks
+# Linux package management
 
-## Install a package
+## Standard tasks
+
+### Install a package
 
 ```bash
 sudo apt install <package_name>
 ```
 
-## Install all available updates
+### Install all available updates
 
 ```bash
 sudo apt-get update
@@ -19,21 +21,21 @@ sudo apt-get autoremove
 sudo apt-get autoclean
 ```
 
-## Install a package from a deb file
+### Install a package from a deb file
 
 ```bash
 sudo dpkg -i <path_to_deb_file>
 ```
 
-# Less frequent tasks
+## Less frequent tasks
 
-## Lock/hold a package at the current version
+### Lock/hold a package at the current version
 
 ```bash
 sudo apt-mark hold <package_name>
 ```
 
-## List installed packages
+### List installed packages
 
 ```bash
 dpkg --get-selections
@@ -46,31 +48,32 @@ apt-show-versions # Requires apt-show-versions package
 dpkg-query --show "linux-image*"
 ```
 
-## List available packages
+### List available packages
 
 ```bash
 apt-cache pkgnames
 ```
 
-## Determine which package a file belongs to:
+### Determine which package a file belongs to
 
 ```bash
 apt-file search <path-to-file> # Requires apt-file package
 ```
 
-## See configured options
+### See configured options
 
 ```bash
 apt-config dump
 ```
 
-## Re-configure a package
+### Re-configure a package
 
 ```bash
 dpkg-reconfigure <package>
 ```
 
-## Uninstall a package
+### Uninstall a package
+
 '''bash
 sudo dpkg -r <package_name>
 '''
