@@ -10,7 +10,7 @@ Erasing the data from a disk before performing a fresh OS installation can be co
 
 Booting from a "Live" Linux distribution is helpful in this case. It allows the disk to be accessed without being in use.
 
-### Magnetic disks
+### Erasing magnetic disks
 
 A traditional magnetic disk can be erased from a terminal using commands such as
 ```bash
@@ -27,7 +27,7 @@ Erasing an entire disk may take a long time. Often, it is sufficient to erase ju
 dd if=/dev/zero of=/dev/sda bs=4096 count=1024
 ```
 
-### SSDs
+### Erasing SSDs
 
 For modern solid-state disks, there is a better way. Using `blkdiscard` offers several advantages:
 * It is quicker.
@@ -56,7 +56,7 @@ blkdiscard /dev/sda1
 
 If the disk is being erased because it contains confidential or personal data which must be removed then a more through wipe may be desired.
 
-### Magnetic disk
+### Secure wiping magnetic disks
 
 For magnetic disks, writing random data rather than zeros may make data recovery more difficult, e.g.
 ```bash
@@ -65,7 +65,7 @@ dd if=/dev/urandom of=/dev/sda
 Be sure to allow the command to run to completion in this case and consider running multiple passes.
 > Warning: This still does not guarantee full erasure. Data may still exist is sectors that have been swapped out of use because the drive's internal error detection found them to be no longer fully reliable.
 
-### SSDs
+### Secure wiping SSDs
 
 For solid-state disks, the `blkdiscard` command offers an option for a secure discard, but it does require support from the device.
 ```bash

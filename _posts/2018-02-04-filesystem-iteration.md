@@ -35,18 +35,16 @@ find -print0 |
   xargs --null -I {} bash -c "echo '{}'"
 ```
 
-```
-$ touch "File name with single quote '.txt"
-$ ls -la
-total 0
-drwx------ 2 bondms bondms 60 Feb  4 12:42 .
-drwx------ 3 bondms bondms 60 Feb  4 12:41 ..
--rw------- 1 bondms bondms  0 Feb  4 12:45 File name with single quote '.txt
-$ find -print0 | xargs --null -I {} bash -c "echo '{}'"
-.
-bash: -c: line 0: unexpected EOF while looking for matching `''
-bash: -c: line 1: syntax error: unexpected end of file
-```
+    $ touch "File name with single quote '.txt"
+    $ ls -la
+    total 0
+    drwx------ 2 bondms bondms 60 Feb  4 12:42 .
+    drwx------ 3 bondms bondms 60 Feb  4 12:41 ..
+    -rw------- 1 bondms bondms  0 Feb  4 12:45 File name with single quote '.txt
+    $ find -print0 | xargs --null -I {} bash -c "echo '{}'"
+    .
+    bash: -c: line 0: unexpected EOF while looking for matching `''
+    bash: -c: line 1: syntax error: unexpected end of file
 
 The ```bash``` command string attempts to handle special characters within file names by enclosing the name within single quotes, but this doesn't work when a single quote character is present in the file name.
 
