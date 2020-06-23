@@ -1,5 +1,5 @@
 <!-- markdownlint-capture -->
-<!-- markdownlint-disable MD025 -->
+<!-- markdownlint-disable -->
 ---
 title: Iterating over a filesystem
 ---
