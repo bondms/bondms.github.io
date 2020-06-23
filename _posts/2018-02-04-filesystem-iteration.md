@@ -1,6 +1,8 @@
+<!-- markdownlint-disable -->
 ---
 title: Iterating over a filesystem
 ---
+<!-- markdownlint-restore -->
 
 # Iterating over a filesystem
 
