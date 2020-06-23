@@ -35,7 +35,7 @@ find -print0 |
   xargs --null -I {} bash -c "echo '{}'"
 ```
 
-```
+```console
 $ touch "File name with single quote '.txt"
 $ ls -la
 total 0
@@ -60,7 +60,7 @@ Use of the ```-exec``` and ```-execdir``` options of ```find``` without care can
   echo Error reported
 ```
 
-```
+```console
 $ ( find -execdir ls --bad-arg {} \; ) && echo No error reported || echo Error reported
 ls: unrecognised option '--bad-arg'
 Try 'ls --help' for more information.
@@ -78,7 +78,7 @@ find -type f -print0 |
   xargs --null file
 ```
 
-```
+```console
 $ ls -la
 total 0
 drwx------ 2 bondms bondms 40 Feb  4 12:46 .
@@ -101,7 +101,7 @@ find -type f -print0 |
   xargs --null wc
 ```
 
-```
+```console
 $ for (( i=100000 ; i=i-1 ; i )); do echo Test data > $i.txt; done
 $ find -type f -print0 | xargs --null wc
      1      2     10 ./10000.txt
