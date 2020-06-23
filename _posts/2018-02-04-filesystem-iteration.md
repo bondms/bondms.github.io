@@ -1,3 +1,10 @@
+<!-- markdownlint-capture -->
+<!-- markdownlint-disable MD025 -->
+---
+title: Iterating over a filesystem
+---
+<!-- markdownlint-restore -->
+
 # Iterating over a filesystem
 
 There are many computing tasks that are easy to do in a manner that works most of the time but which fail for edge cases. Iterating over files and/or directories in a filesystem, in order to perform a common action on each, is an example.
