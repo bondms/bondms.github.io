@@ -1,9 +1,8 @@
-<!-- markdownlint-capture -->
-<!-- markdownlint-disable -->
+<!-- markdownlint-disable MD025 -->
 ---
 title: Iterating over a filesystem
 ---
-<!-- markdownlint-restore -->
+<!-- markdownlint-enable MD025 -->
 
 # Iterating over a filesystem
 
