@@ -1,2 +1,5 @@
 # index.md is provided by GitHub and unmodified.
 /index.md
+
+# Markdown posts have a YAML header for Jekyll which confuses the markdown linter.
+/_posts/*.md
