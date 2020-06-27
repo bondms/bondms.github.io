@@ -59,12 +59,12 @@ echo "$0 started."
 
 function log_info()
 {
-    echo "$(basename "$0" .sh): $@"
+    echo "$(basename "$0" .sh): $*"
 }
 
 function log_error()
 {
-    echo "$(basename "$0" .sh): ERROR: $@" >&2
+    echo "$(basename "$0" .sh): ERROR: $*" >&2
 }
 
 function abort()
