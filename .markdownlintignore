@@ -3,6 +3,3 @@
 
 # Markdown posts have a YAML header for Jekyll which confuses the markdown linter.
 /_posts/*.md
-
-# Some HTML also have a YAML header for Jekyll which confuses the HTML linter.
-/posts.html
