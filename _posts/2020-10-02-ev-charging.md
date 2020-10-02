@@ -6,56 +6,56 @@ title: Electric Vehicle Charging
 
 ## Charging networks:
 
+Some key points about EV charging networks in the UK.
+
+These are all UK, non-subscription prices. Subscription services may allow cheaper per-unit pricing.
+
 * ChargePoint (https://www.chargepoint.com/):
-    * Usage: Mobile app or RFID card.
+    * Usage: App or RFID.
     * Registration: Required.
-    * Pricing: Variable.
+    * Pricing: Variable. Some free for an initial period.
     * Notes:
         * £10 charged and added to account on first use of non-free charger.
-        * First RFID card is provided free of charge. Replacements incur a cost.
+        * First RFID is provided free of charge on request.
+        * Phone's NFC can be used.
 * Ecotricity/Electric Highway (https://www.ecotricity.co.uk/):
-    * Usage: Mobile app.
-    * Chargers: CCS and AC.
-    * Pricing: 30p/kWh for fast charging; free for slow charging.
+    * Usage: App.
+    * Registration: Not required; guest access available with the app.
+    * Pricing: 30 p/kWh.
     * Notes:
-        * There are only a small number of locations with the free slow chargers.
+        * Maximum 45 minutes charge per session.
 * engenie (https://engenie.co.uk/):
-    * Usage: Contactless payment preferred.
-    * Chargers: 50kW rapid.
+    * Usage: Contactless.
+    * Registration: Not required.
     * Pricing: 36 p/kWh.
 * Franklin Energy RAPID LiFe EV (https://franklinenergy.co.uk/rapid-life-ev/)
-    * Works with Plugsurfing and Octopus Juice?
-    * TODO:
-      * App?
-      * Register (Plugsurfing and/or Octopus Juice).
+    * Usage: App or RFID (Plugsurfing / Octopus Juice).
+    * Registration: Required.
 * GeniePoint (https://www.geniepoint.co.uk/):
-    * Usage: Mobile app, web or RFID card.
-    * Registration: Required for RFID card. Guest access available with mobile app and web.
+    * Usage: App, web or RFID.
+    * Registration: Required for RFID. Guest access available with app and web.
 * Instavolt (https://instavolt.co.uk/):
     * Usage: Contactless.
-    * Chargers: 50 kW DC rapid according to their web site. But also faster 100/125 kW according to maps/route-planners etc.
+    * Registration: Not required.
     * Pricing: 35 p/kWh.
 * Ionity (https://ionity.eu/):
     * Usage: Web.
     * Registration: Not required.
-    * Chargers: Up to 350 kW.
     * Pricing: 69 p/kWh
 * Pod Point (https://pod-point.com/):
-    * Usage: Mobile app or web.
+    * Usage: App or web.
     * Registration: Required.
-    * Chargers: AC and DC.
-    * Pricing: Cariable, including some free.
+    * Pricing: Variable. Some free.
     * Notes:
         * 15 minutes free during which time use app/web to confirm continuation.
 * Polar Instant (https://www.polarinstant.com/):
-    * Usage: Mobile app.
+    * Usage: App.
     * Pricing: £1.20 connection fee + potential per-unit charge.
     * Notes:
         * Requires minimum £10 initial credit.
 * Shell (https://www.shell.co.uk/motorist/ev-charging.html):
-    * Usage: Contactless, mobile app, RFID card.
-    * Registration: Required only for RFID card.
-    * Chargers: 150kW and 50kW rapid.
+    * Usage: Contactless, app, RFID.
+    * Registration: Required only for RFID.
     * Pricing: 39 p/kWh.
 
 ## Jargon
