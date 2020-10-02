@@ -4,11 +4,11 @@ title: Electric Vehicle Charging
 
 # Electric Vehicle Charging
 
+These notes are for the UK.
+
 ## Charging networks:
 
-Some key points about EV charging networks in the UK.
-
-These are all UK, non-subscription prices. Subscription services may allow cheaper per-unit pricing.
+These are all non-subscription prices. Subscription services may allow cheaper per-unit pricing.
 
 * ChargePoint (https://www.chargepoint.com/):
     * Usage: App or RFID.
@@ -60,43 +60,39 @@ These are all UK, non-subscription prices. Subscription services may allow cheap
 
 ## Jargon
 
-xxx
+### Charging modes
 
-## Cables
+* Mode 1: Use of a standard domestic socket without safety protection. Limited to 8 Amp / 2 kW. Not suitable for most EVs.
+* Mode 2: Use of a stardard domestic socket or a commando socket with an in-cord control and protection device. Limited to 10 Amp / 2.4 kW for domestic sockets, 12 Amp from a commando socket.
+* Mode 3: AC fast charging up to 22 kW. May be 1 or 3 phase. A typical 1 phase home charger is limited to 7 kW.
+* Mode 4: DC fast or rapid charging.
 
-xxx
+### Connectors
 
-### Working example:
+* Type 2: Current European standard supporting 1 and 3 phase AC from 3 to 50 kW.
+* CCS-combo: Combines a type-2 connector with additional pins for fast DC charging.
+* CHAdeMO: An alternative connector originally popular with Japanese manufacturers
+* Type G: Aks "granny cable". 3-pin domestic socket.
 
-Cable sets:
+## Cable limitations
 
-* Polestar home charging cable plus Tough Leads extension:
-    * Cable:
-        * 7 metre.
-        * 10/13 amp (2.4 kW).
-        * Type G, mode 2.
-        * 3-pin.
-    * Extension:
-        * 10 metre.
-        * Weatherproof.
-        * 13 amp.
-* Polestar public charging cable:
-    * 4.5 metre.
-    * Type 2, EU mode 3.
-    * 3-phase.
-    * 16 amp (11 kW).
-    * Use with:
-        * 11 kW, 3-phase; provides 11 kW.
-        * 22 kW, 3-phase; provides 11 kW.
-    * Restricted power with:
-        * 7 kW, 1-phase; provides 3 kW.
-* EV OneStop public charging cable:
-    * 5 metre.
-    * Type 2 to type 2.
-    * 1-phase.
-    * 32-amp (7.2 kW).
-    * Use with:
-        * 7 kW, 1-phase; provides 7 kW.
-    * Restricted power with:
-        * 11 kW, 3-phase; provides 3.6 kW.
-        * 22 kW, 3-phase; provides 7.2 kW.
+All DC chargers and some AC chargers are tethered. In this case, the tethered cable will be appropriate for the charger, and the charging speed will be the best supported by the combination of the vehicle and the charger.
+
+Some AC chargers, however, are untethered and require the user to provide a cable. In this case, cable selection may limit charging speed below the maximum supported by the combination of the vehicle and the charger.
+
+Consider a user with the follow two cables (both being type 2, mode 3):
+
+1. 3-phase, 16 Amp (11 kW).
+1. 1-phase, 32 Amp (7.2 kW).
+
+Although the first cable is rated to a higher power, there are cases where using the second cable may provide a fast charging rate. See the first of these scenarios:
+
+1. 7 kW, 1-phase charger:
+    * The first cable provides only 3 kW. The 16 Amp limitation prevents full use of the one available phase.
+    * The second cable provides the full 7 kW.
+1. 11 kW, 3-phase charger:
+    * The first cable provides the full 11 kW.
+    * The second cable provides 3.6 kW.
+1. 22 kW, 3-phase charger:
+    * The first cable provides 11 kW. The cable's 16 Amp limit applies to each phase.
+    * The second cable provides 7.2 kW. The cable's single phase prevents use of the the other two phases.
