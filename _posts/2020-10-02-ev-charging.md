@@ -72,7 +72,7 @@ These are all non-subscription prices. Subscription services may allow cheaper p
 * Type 2: Current European standard supporting 1 and 3 phase AC from 3 to 50 kW.
 * CCS-combo: Combines a type-2 connector with additional pins for fast DC charging.
 * CHAdeMO: An alternative connector originally popular with Japanese manufacturers
-* Type G: Aks "granny cable". 3-pin domestic socket.
+* Type G (AKA "granny cable"): 3-pin domestic socket.
 
 ## Cable limitations
 
@@ -85,7 +85,7 @@ Consider a user with the follow two cables (both being type 2, mode 3):
 1. 3-phase, 16 Amp (11 kW).
 1. 1-phase, 32 Amp (7.2 kW).
 
-Although the first cable is rated to a higher power, there are cases where using the second cable may provide a fast charging rate. See the first of these scenarios:
+Although the first cable is rated to a higher power, there are cases where using the second cable may provide a fast charging rate (such as in the first of these scenarios):
 
 1. 7 kW, 1-phase charger:
     * The first cable provides only 3 kW. The 16 Amp limitation prevents full use of the one available phase.
@@ -96,3 +96,5 @@ Although the first cable is rated to a higher power, there are cases where using
 1. 22 kW, 3-phase charger:
     * The first cable provides 11 kW. The cable's 16 Amp limit applies to each phase.
     * The second cable provides 7.2 kW. The cable's single phase prevents use of the the other two phases.
+
+To avoid these potential charging-speed limitations, a more versatile cable could be used that provides 3-phasea at 32 Amps. This would avoid the need to carry or select between multiple cables, but such a cable is likely to be bigger, heavier, and more expensive than either of the other options.
