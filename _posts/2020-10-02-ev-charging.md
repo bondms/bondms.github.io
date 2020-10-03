@@ -10,7 +10,7 @@ These notes are for the UK.
 
 These are all non-subscription prices. Subscription services may allow cheaper per-unit pricing.
 
-* ChargePoint: [https://www.chargepoint.com/](https://www.chargepoint.com/):
+* ChargePoint: [https://www.chargepoint.com/](https://www.chargepoint.com/)
     * Usage: App or RFID.
     * Registration: Required.
     * Pricing: Variable. Some free for an initial period.
@@ -18,42 +18,42 @@ These are all non-subscription prices. Subscription services may allow cheaper p
         * £10 charged and added to account on first use of non-free charger.
         * First RFID is provided free of charge on request.
         * Phone's NFC can be used.
-* Ecotricity/Electric Highway: [https://www.ecotricity.co.uk/](https://www.ecotricity.co.uk/):
+* Ecotricity/Electric Highway: [https://www.ecotricity.co.uk/](https://www.ecotricity.co.uk/)
     * Usage: App.
     * Registration: Not required; guest access available with the app.
     * Pricing: 30 p/kWh.
     * Notes:
         * Maximum 45 minutes charge per session.
-* engenie: [https://engenie.co.uk/](https://engenie.co.uk/):
+* engenie: [https://engenie.co.uk/](https://engenie.co.uk/)
     * Usage: Contactless.
     * Registration: Not required.
     * Pricing: 36 p/kWh.
 * Franklin Energy RAPID LiFe EV: [https://franklinenergy.co.uk/rapid-life-ev/](https://franklinenergy.co.uk/rapid-life-ev/)
     * Usage: App or RFID (Plugsurfing / Octopus Juice).
     * Registration: Required.
-* GeniePoint: [https://www.geniepoint.co.uk/](https://www.geniepoint.co.uk/):
+* GeniePoint: [https://www.geniepoint.co.uk/](https://www.geniepoint.co.uk/)
     * Usage: App, web or RFID.
     * Registration: Required for RFID. Guest access available with app and web.
-* Instavolt: [https://instavolt.co.uk/](https://instavolt.co.uk/):
+* Instavolt: [https://instavolt.co.uk/](https://instavolt.co.uk/)
     * Usage: Contactless.
     * Registration: Not required.
     * Pricing: 35 p/kWh.
-* Ionity: [https://ionity.eu/](https://ionity.eu/):
+* Ionity: [https://ionity.eu/](https://ionity.eu/)
     * Usage: Web.
     * Registration: Not required.
     * Pricing: 69 p/kWh
-* Pod Point: [https://pod-point.com/](https://pod-point.com/):
+* Pod Point: [https://pod-point.com/](https://pod-point.com/)
     * Usage: App or web.
     * Registration: Required.
     * Pricing: Variable. Some free.
     * Notes:
         * 15 minutes free during which time use app/web to confirm continuation.
-* Polar Instant: [https://www.polarinstant.com/](https://www.polarinstant.com/):
+* Polar Instant: [https://www.polarinstant.com/](https://www.polarinstant.com/)
     * Usage: App.
     * Pricing: £1.20 connection fee + potential per-unit charge.
     * Notes:
         * Requires minimum £10 initial credit.
-* Shell: [https://www.shell.co.uk/motorist/ev-charging.html](https://www.shell.co.uk/motorist/ev-charging.html):
+* Shell: [https://www.shell.co.uk/motorist/ev-charging.html](https://www.shell.co.uk/motorist/ev-charging.html)
     * Usage: Contactless, app, RFID.
     * Registration: Required only for RFID.
     * Pricing: 39 p/kWh.
