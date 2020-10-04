@@ -103,4 +103,4 @@ To avoid these potential charging-speed limitations, a more versatile cable coul
 
 Octopus offer a range of good tariffs with some that are especially good for EV owners. Octopus Go and Octopus Agile both offer cheap off-peak electricity, so are ideal if you can schedule your charging to fit in with off-peak times.
 
-Octopus referral code: [share.octopus.energy/topaz-sheep-824](share.octopus.energy/topaz-sheep-824)
+Octopus referral code: [share.octopus.energy/topaz-sheep-824](https://share.octopus.energy/topaz-sheep-824)
