@@ -80,7 +80,7 @@ All DC chargers and some AC chargers are tethered. In this case, the tethered ca
 
 Some AC chargers, however, are untethered and require the user to provide a cable. In this case, cable selection may limit charging speed below the maximum supported by the combination of the vehicle and the charger.
 
-Consider a user with the follow two cables (both being type 2, mode 3):
+Consider a user with the following two cables (both being type 2, mode 3):
 
 1. 3-phase, 16 Amp (11 kW).
 1. 1-phase, 32 Amp (7.2 kW).
@@ -98,3 +98,9 @@ Although the first cable is rated to a higher power, there are cases where using
     * The second cable provides 7.2 kW. The cable's single phase prevents use of the the other two phases.
 
 To avoid these potential charging-speed limitations, a more versatile cable could be used that provides 3-phasea at 32 Amps. This would avoid the need to carry or select between multiple cables, but such a cable is likely to be bigger, heavier, and more expensive than either of the other options.
+
+## Home charging
+
+Octopus offer a range of good tariffs with some that are especially good for EV owners. Octopus Go and Octopus Agile both offer cheap off-peak electricity, so are ideal if you can schedule your charging to fit in with off-peak times.
+
+Octopus referral code: [share.octopus.energy/topaz-sheep-824](share.octopus.energy/topaz-sheep-824)
