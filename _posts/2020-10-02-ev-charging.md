@@ -121,24 +121,24 @@ Home charging, however, is much more predictable. Here are some examples:
 
 #### 6 Amps (typically the lowest configurable charging rate):
 
-* Power: `6 Amps * 240 Volts = 1.44 kW`.
-* Range gain rate: `1.44 kW / 280 kWh per 1000 miles * 1000 miles = ~5 mph`.
-* Nightly energy gain: `1.44 kW * 4 h = 5.76 kWh`.
-* Nightly percentage gain: `5.76 kWh / 78 kWh * 100 =  ~7 %`.
-* Nightly range gain: `5.76 kWh / 280 kWh per 1000 miles * 1000 miles = ~20 miles`.
+* Power: `6 Amps * 240 Volts = 1.44 kW`
+* Range gain rate: `1.44 kW / 280 kWh per 1000 miles * 1000 miles = ~5 mph`
+* Nightly energy gain: `1.44 kW * 4 h = 5.76 kWh`
+* Nightly percentage gain: `5.76 kWh / 78 kWh * 100 =  ~7 %`
+* Nightly range gain: `5.76 kWh / 280 kWh per 1000 miles * 1000 miles = ~20 miles`
 
 #### At 10 Amps (maximum rate available from a 13 Amp domestic socket):
 
-* Power: `10 Amps * 240 Volts = 2.4 kW`.
-* Range gain rate: `2.4 kW / 280 kWh per 1000 miles * 1000 miles = ~8.5 mph`.
-* Nightly energy gain: `2.4 kW * 4 h = 9.6 kWh`.
-* Nightly percentage gain: `9.6 kWh / 78 kWh * 100 =  ~12 %`.
-* Nightly range gain: `9.6 kWh / 280 kWh per 1000 miles * 1000 miles = ~35 miles`.
+* Power: `10 Amps * 240 Volts = 2.4 kW`
+* Range gain rate: `2.4 kW / 280 kWh per 1000 miles * 1000 miles = ~8.5 mph`
+* Nightly energy gain: `2.4 kW * 4 h = 9.6 kWh`
+* Nightly percentage gain: `9.6 kWh / 78 kWh * 100 =  ~12 %`
+* Nightly range gain: `9.6 kWh / 280 kWh per 1000 miles * 1000 miles = ~35 miles`
 
 #### At 32 Amps (typical 1-phase home EV charger):
 
-* Power: `32 Amps * 240 Volts = 7.68 kW`. Actual rating is typically 7.4 kW.
-* Range gain rate: `7.4 kW / 280 kWh per 1000 miles * 1000 miles = ~26.5 mph`.
-* Nightly energy gain: `7.4 kW * 4 h = 29.6 kWh`.
-* Nightly percentage gain: `29.6 kWh / 78 kWh * 100 =  ~38 %`.
-* Nightly range gain: `29.6 kWh / 280 kWh per 1000 miles * 1000 miles = ~100 miles`.
+* Power: `32 Amps * 240 Volts = 7.68 kW` (Actual rating is typically 7.4 kW).
+* Range gain rate: `7.4 kW / 280 kWh per 1000 miles * 1000 miles = ~26.5 mph`
+* Nightly energy gain: `7.4 kW * 4 h = 29.6 kWh`
+* Nightly percentage gain: `29.6 kWh / 78 kWh * 100 =  ~38 %`
+* Nightly range gain: `29.6 kWh / 280 kWh per 1000 miles * 1000 miles = ~100 miles`
