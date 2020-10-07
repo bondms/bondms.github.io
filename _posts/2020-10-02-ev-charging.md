@@ -101,6 +101,44 @@ To avoid these potential charging-speed limitations, a more versatile cable coul
 
 ## Home charging
 
+### Tariffs
+
 Octopus offer a range of good tariffs with some that are especially good for EV owners. Octopus Go and Octopus Agile both offer cheap off-peak electricity, so are ideal if you can schedule your charging to fit in with off-peak times.
 
 Octopus referral code: [share.octopus.energy/topaz-sheep-824](https://share.octopus.energy/topaz-sheep-824)
+
+### Charging speeds
+
+The rate of charging at rapid DC public charging station is dependent on many factors and therefore often unpredictable. Temperature, state of charge, whether other users are using nearby charger, etc. can all affect public charging rates.
+
+Home charging, however, is much more predictable. Here are some examples:
+
+#### Assumptions:
+
+* 78 kWh usable battery capacity and 100% charging efficiency. In practice, a 78 kWh battery will actually have less usable capacity and will charge at less than 100 % efficiency, but the differences should approximately cancel out for these rough estimates.
+* Driving economy: 280 kWh per 1000 miles. Adjust the calculations for your own economy which will be affected by car, driving style, weather, traffic, type of roads, etc.
+* 4 hours off off-peak electricity per night at 5 pence per kWh, as per [Octopus Go](https://octopus.energy/go/).
+
+#### 6 Amps (typically the lowest configurable charging rate):
+
+* Power: `6 Amps * 240 Volts = 1.44 kW`.
+* Range gain rate: `1.44 kW / 280 kWh per 1000 miles * 1000 miles = ~5 mph`.
+* Nightly energy gain: `1.44 kW * 4 h = 5.76 kWh`.
+* Nightly percentage gain: `5.76 kWh / 78 kWh * 100 =  ~7 %`.
+* Nightly range gain: `5.76 kWh / 280 kWh per 1000 miles * 1000 miles = ~20 miles`.
+
+#### At 10 Amps (maximum rate available from a 13 Amp domestic socket):
+
+* Power: `10 Amps * 240 Volts = 2.4 kW`.
+* Range gain rate: `2.4 kW / 280 kWh per 1000 miles * 1000 miles = ~8.5 mph`.
+* Nightly energy gain: `2.4 kW * 4 h = 9.6 kWh`.
+* Nightly percentage gain: `9.6 kWh / 78 kWh * 100 =  ~12 %`.
+* Nightly range gain: `9.6 kWh / 280 kWh per 1000 miles * 1000 miles = ~35 miles`.
+
+#### At 32 Amps (typical 1-phase home EV charger):
+
+* Power: `32 Amps * 240 Volts = 7.68 kW`. Actual rating is typically 7.4 kW.
+* Range gain rate: `7.4 kW / 280 kWh per 1000 miles * 1000 miles = ~26.5 mph`.
+* Nightly energy gain: `7.4 kW * 4 h = 29.6 kWh`.
+* Nightly percentage gain: `29.6 kWh / 78 kWh * 100 =  ~38 %`.
+* Nightly range gain: `29.6 kWh / 280 kWh per 1000 miles * 1000 miles = ~100 miles`.
