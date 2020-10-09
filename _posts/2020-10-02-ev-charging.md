@@ -82,18 +82,18 @@ Some AC chargers, however, are untethered and require the user to provide a cabl
 
 Consider a user with the following two cables (both being type 2, mode 3):
 
-1. 3-phase, 16 Amp (11 kW).
-1. 1-phase, 32 Amp (7.2 kW).
+* 3-phase, 16 Amp (11 kW).
+* 1-phase, 32 Amp (7.2 kW).
 
 Although the first cable is rated to a higher power, there are cases where using the second cable may provide a fast charging rate (such as in the first of these scenarios):
 
-1. 7 kW, 1-phase charger:
+* 7 kW, 1-phase charger:
     * The first cable provides only 3 kW. The 16 Amp limitation prevents full use of the one available phase.
     * The second cable provides the full 7 kW.
-1. 11 kW, 3-phase charger:
+* 11 kW, 3-phase charger:
     * The first cable provides the full 11 kW.
     * The second cable provides 3.6 kW.
-1. 22 kW, 3-phase charger:
+* 22 kW, 3-phase charger:
     * The first cable provides 11 kW. The cable's 16 Amp limit applies to each phase.
     * The second cable provides 7.2 kW. The cable's single phase prevents use of the the other two phases.
 
