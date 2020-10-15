@@ -6,6 +6,15 @@ title: Electric Vehicle Charging
 
 These notes are for the UK.
 
+## Locating
+
+Networks typically have their own web or app map to locate their chargers, but there are also solutions that combine many networks:
+
+* A Better Route Planner: [https://abetterrouteplanner.com/](https://abetterrouteplanner.com/)
+    * Allows advanced planning of routes which can be customized based on your own preferences (car, driving style, etc).
+* ZapMap: [https://www.zap-map.com/](https://www.zap-map.com/)
+    * Allows users to provide feedback on charger status etc. so others can avoid faulty units without first having to travel there.
+
 ## Charging networks:
 
 These are all non-subscription prices. Subscription services may allow cheaper per-unit pricing.
@@ -18,6 +27,10 @@ These are all non-subscription prices. Subscription services may allow cheaper p
         * £10 charged and added to account on first use of non-free charger.
         * First RFID is provided free of charge on request.
         * Phone's NFC can be used.
+* e.on: [https://map.eondrive.co.uk/](https://map.eondrive.co.uk/)
+    * Usage: Contactless, app, web or RFID.
+    * Registration: Not required.
+    * Pricing: Variable.
 * Ecotricity/Electric Highway: [https://www.ecotricity.co.uk/](https://www.ecotricity.co.uk/)
     * Usage: App.
     * Registration: Not required; guest access available with the app.
