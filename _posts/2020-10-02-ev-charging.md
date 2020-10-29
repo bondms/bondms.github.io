@@ -19,6 +19,12 @@ Networks typically have their own web or app map to locate their chargers, but t
 
 These are all non-subscription prices. Subscription services may allow cheaper per-unit pricing.
 
+* BP Chargemaster (Polar network): [https://bpchargemaster.com/](https://bpchargemaster.com/)
+    * Usage: Contactless or app.
+    * Registration: No required for contactless.
+    * Pricing:
+        * App: 18-35 p/kWh depending on charger speed.
+        * Contactless: 30-40 p/kWh depending on charger speed.
 * ChargePoint: [https://www.chargepoint.com/](https://www.chargepoint.com/)
     * Usage: App or RFID.
     * Registration: Required.
@@ -66,6 +72,7 @@ These are all non-subscription prices. Subscription services may allow cheaper p
     * Pricing: £1.20 connection fee + potential per-unit charge.
     * Notes:
         * Requires minimum £10 initial credit.
+        * Polar app to be closed down and replaced with BP Chargemaster from 1 December 2020.
 * Shell: [https://www.shell.co.uk/motorist/ev-charging.html](https://www.shell.co.uk/motorist/ev-charging.html)
     * Usage: Contactless, app, RFID.
     * Registration: Required only for RFID.
