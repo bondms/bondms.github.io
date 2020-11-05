@@ -43,10 +43,6 @@ These are all non-subscription prices. Subscription services may allow cheaper p
     * Pricing: 30 p/kWh.
     * Notes:
         * Maximum 45 minutes charge per session.
-* engenie: [https://engenie.co.uk/](https://engenie.co.uk/)
-    * Usage: Contactless.
-    * Registration: Not required.
-    * Pricing: 36 p/kWh.
 * Franklin Energy RAPID LiFe EV: [https://franklinenergy.co.uk/rapid-life-ev/](https://franklinenergy.co.uk/rapid-life-ev/)
     * Usage: App or RFID (Plugsurfing / Octopus Juice).
     * Registration: Required.
@@ -60,7 +56,11 @@ These are all non-subscription prices. Subscription services may allow cheaper p
 * Ionity: [https://ionity.eu/](https://ionity.eu/)
     * Usage: Web.
     * Registration: Not required.
-    * Pricing: 69 p/kWh
+    * Pricing: 69 p/kWh.
+* Osprey (previously engenie): [https://ospreycharging.co.uk/](https://ospreycharging.co.uk/)
+    * Usage: Contactless.
+    * Registration: Not required.
+    * Pricing: 36 p/kWh.
 * Pod Point: [https://pod-point.com/](https://pod-point.com/)
     * Usage: App or web.
     * Registration: Required.
