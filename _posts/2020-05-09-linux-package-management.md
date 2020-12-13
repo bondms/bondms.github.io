@@ -74,6 +74,6 @@ dpkg-reconfigure <package>
 
 ### Uninstall a package
 
-'''bash
+```bash
 sudo dpkg -r <package_name>
-'''
+```

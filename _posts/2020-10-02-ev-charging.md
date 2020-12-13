@@ -1,8 +1,8 @@
 ---
-title: Electric Vehicle Charging
+title: Electric vehicle charging
 ---
 
-# Electric Vehicle Charging
+# Electric vehicle Charging
 
 These notes are for the UK.
 
