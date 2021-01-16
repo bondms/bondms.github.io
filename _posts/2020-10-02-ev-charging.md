@@ -19,14 +19,12 @@ Networks typically have their own web or app map to locate their chargers, but t
 
 These are all non-subscription prices. Subscription services may allow cheaper per-unit pricing.
 
-* BP Pulse: [https://www.bppulse.co.uk/charging-on-the-go](https://www.bppulse.co.uk/charging-on-the-go)
+* BP Pulse (previously BP Chargemaster / Polar): [https://www.bppulse.co.uk/charging-on-the-go](https://www.bppulse.co.uk/charging-on-the-go)
     * Usage: Contactless or app.
     * Registration: No required for contactless.
     * Pricing:
       * £1.20 connection fee + potential per-unit charge.
       * Typically 18-42 p/kWh without subscription.
-    * Notes:
-        * Formerly BP Chargemaster / Polar.
 * ChargePoint: [https://www.chargepoint.com/](https://www.chargepoint.com/)
     * Usage: App or RFID.
     * Registration: Required.
