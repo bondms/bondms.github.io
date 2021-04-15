@@ -54,11 +54,11 @@ These are all non-subscription prices. Subscription services may allow cheaper p
     * Registration: Not required.
     * Pricing: 35 p/kWh.
 * Ionity: [https://ionity.eu/](https://ionity.eu/)
-    * Usage: Web.
+    * Usage: Web, Octopus Electric Juice.
     * Registration: Not required.
     * Pricing: 69 p/kWh.
 * Osprey (previously engenie): [https://ospreycharging.co.uk/](https://ospreycharging.co.uk/)
-    * Usage: Contactless.
+    * Usage: Contactless, Octopus Electric Juice.
     * Registration: Not required.
     * Pricing: 36 p/kWh.
 * Pod Point: [https://pod-point.com/](https://pod-point.com/)
@@ -67,8 +67,8 @@ These are all non-subscription prices. Subscription services may allow cheaper p
     * Pricing: Variable. Some free.
     * Notes:
         * 15 minutes free during which time use app/web to confirm continuation.
-* Shell: [https://www.shell.co.uk/motorist/ev-charging.html](https://www.shell.co.uk/motorist/ev-charging.html)
-    * Usage: Contactless, app, RFID.
+* Shell Recharge (part of NewMotion): [https://www.shell.co.uk/motorist/ev-charging.html](https://www.shell.co.uk/motorist/ev-charging.html)
+    * Usage: Contactless, app, RFID, Octopus Electric Juice.
     * Registration: Required only for RFID.
     * Pricing: 39 p/kWh.
 
