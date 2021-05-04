@@ -49,6 +49,8 @@ These are all non-subscription prices. Subscription services may allow cheaper p
 * GeniePoint: [https://www.geniepoint.co.uk/](https://www.geniepoint.co.uk/)
     * Usage: App, web or RFID.
     * Registration: Required for RFID. Guest access available with app and web.
+* Gridserve: [https://gridserve.com/braintree-overview/](https://gridserve.com/braintree-overview/)
+    * Pricing: 24 p/kWh (at Braintree Electric Forecourt)
 * Instavolt: [https://instavolt.co.uk/](https://instavolt.co.uk/)
     * Usage: Contactless.
     * Registration: Not required.
