@@ -58,7 +58,7 @@ These are all non-subscription prices. Subscription services may allow cheaper p
 * Ionity: [https://ionity.eu/](https://ionity.eu/)
     * Usage: Web, Octopus Electric Juice.
     * Registration: Not required.
-    * Pricing: 69 p/kWh.
+    * Pricing: 69 p/kWh (66 p/kWh with Octopus Electric Juice).
 * Osprey (previously engenie): [https://ospreycharging.co.uk/](https://ospreycharging.co.uk/)
     * Usage: Contactless, Octopus Electric Juice.
     * Registration: Not required.
