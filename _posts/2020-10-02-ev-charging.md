@@ -24,7 +24,10 @@ These are all non-subscription prices. Subscription services may allow cheaper p
     * Registration: No required for contactless.
     * Pricing:
       * £1.20 connection fee + potential per-unit charge.
-      * Typically 18-42 p/kWh without subscription.
+      * Typically 12-27 p/kWh with a subscription (12p for AC, 15p for 50kW DC, 27p for 150kW DC).
+      * Typically 18-42 p/kWh with free membership (18p for AC, 25p for 50kW DC, 42p for 150kW DC).
+      * Typically 25-42 p/kWh as a guest (25p for AC, 30p for 50kW DC, 42p for 150kW DC).
+      * £10 overstay charge for exceeding 90 minutes on DC chargers.
 * ChargePoint: [https://www.chargepoint.com/](https://www.chargepoint.com/)
     * Usage: App or RFID.
     * Registration: Required.
