@@ -100,7 +100,7 @@ These are all non-subscription prices. Subscription services may allow cheaper p
 
 * Type 2: Current European standard supporting 1 and 3 phase AC from 3 to 50 kW.
 * CCS-combo: Combines a type-2 connector with additional pins for fast DC charging.
-* CHAdeMO: An alternative connector originally popular with Japanese manufacturers
+* CHAdeMO: An alternative connector originally popular with Japanese manufacturers.
 * Type G (AKA "granny cable"): 3-pin domestic socket.
 
 ## Cable limitations
@@ -114,14 +114,14 @@ Consider a user with the following two cables (both being type 2, mode 3):
 * 3-phase, 16 Amp (11 kW).
 * 1-phase, 32 Amp (7.2 kW).
 
-Although the first cable is rated to a higher power, there are cases where using the second cable may provide a fast charging rate (such as in the first of these scenarios):
+Although the first cable is rated to a higher power, there are cases where using the second cable may provide a faster charging rate (such as in the first of these scenarios):
 
 * 7 kW, 1-phase charger:
     * The first cable provides only 3 kW. The 16 Amp limitation prevents full use of the one available phase.
     * The second cable provides the full 7 kW.
 * 11 kW, 3-phase charger:
     * The first cable provides the full 11 kW.
-    * The second cable provides 3.6 kW.
+    * The second cable provides 3.6 kW. The cable's single phase prevents use of the the other two phases.
 * 22 kW, 3-phase charger:
     * The first cable provides 11 kW. The cable's 16 Amp limit applies to each phase.
     * The second cable provides 7.2 kW. The cable's single phase prevents use of the the other two phases.
@@ -148,7 +148,7 @@ Home charging, however, is much more predictable. Here are some examples:
 * Driving economy: 280 kWh per 1000 miles. Adjust the calculations for your own economy which will be affected by car, driving style, weather, traffic, type of roads, etc.
 * 4 hours off off-peak electricity per night at 5 pence per kWh, as per [Octopus Go](https://octopus.energy/go/).
 
-#### 6 Amps (typically the lowest configurable charging rate):
+#### 6 Amps (typically the lowest configurable charging rate; useful if using an extension lead that isn't designed for continuous high-current use):
 
 * Power: `6 Amps * 240 Volts = 1.44 kW`
 * Range gain rate: `1.44 kW / 280 kWh per 1000 miles * 1000 miles = ~5 mph`
