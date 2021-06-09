@@ -25,18 +25,18 @@ These are all non-subscription prices. Subscription services may allow cheaper p
     * Pricing:
         * All charges on basic access are subject to a minimum spend of £1.20.
         * Some chargers also incur a cost per kWh, typically:
-            * 12-27 p/kWh with a subscription:
-                * 12p for AC
-                * 15p for 50kW DC
-                * 27p for 150kW DC
-            * 18-42 p/kWh with free membership:
-                * 18p for AC
-                * 25p for 50kW DC
-                * 42p for 150kW DC
-            * 25-42 p/kWh as a guest:
-                * 25p for AC
-                * 30p for 50kW DC
-                * 42p for 150kW DC
+            * 16-27 p/kWh with a subscription:
+                * 16p for up to 22 kW AC.
+                * 23p for 43 kW AC or 50 kW DC.
+                * 27p for 150 kW+ DC.
+            * 20-42 p/kWh with free membership:
+                * 20p for up to 22 kW AC.
+                * 29p for 43 kW AC or 50 kW DC.
+                * 42p for 150 kW+ DC.
+            * 26-42 p/kWh as a guest:
+                * 26p for up to 22 kW AC.
+                * 35p for 43 kW AC or 50 kW DC.
+                * 42p for 150 kW+ DC.
         * £10 overstay charge for exceeding 90 minutes on DC chargers.
 * ChargePoint: [https://www.chargepoint.com/](https://www.chargepoint.com/)
     * Usage: App or RFID.
