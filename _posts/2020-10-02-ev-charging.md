@@ -81,7 +81,7 @@ These are all non-subscription prices. Subscription services may allow cheaper p
     * Registration: Not required.
     * Pricing:
         * 36 p/kWh (Contactless, Octopus Electric Juice).
-        * 48 p/KwH (Plugsurfing).
+        * 48 p/kWh (Plugsurfing).
 * Pod Point: [https://pod-point.com/](https://pod-point.com/)
     * Usage: App or web.
     * Registration: Required.
