@@ -69,16 +69,19 @@ These are all non-subscription prices. Subscription services may allow cheaper p
     * Registration: Not required.
     * Pricing: 35 p/kWh.
 * Ionity: [https://ionity.eu/](https://ionity.eu/)
-    * Usage: Web, Octopus Electric Juice.
+    * Usage: Contactless, web, Octopus Electric Juice, Plugsurfing.
     * Registration: Not required.
     * Pricing:
-        * 69 p/kWh.
-        * 66 p/kWh with Octopus Electric Juice (5% discount).
-        * 0.35 EUR/kWh with Polestar/Volvo Plugsurfing offer (from 1 July 2021 for at least 12 months).
+        * 69 p/kWh (contactless, web).
+        * 66 p/kWh (Octopus Electric Juice including 5% discount).
+        * 77 p/kWh (Plugsurfing).
+        * 0.35 EUR/kWh (Plugsurfing with Polestar/Volvo offer from 1 July 2021 for at least 12 months).
 * Osprey (previously engenie): [https://ospreycharging.co.uk/](https://ospreycharging.co.uk/)
-    * Usage: Contactless, Octopus Electric Juice.
+    * Usage: Contactless, Octopus Electric Juice, Plugsurfing.
     * Registration: Not required.
-    * Pricing: 36 p/kWh.
+    * Pricing:
+        * 36 p/kWh (Contactless, Octopus Electric Juice).
+        * 48 p/KwH (Plugsurfing).
 * Pod Point: [https://pod-point.com/](https://pod-point.com/)
     * Usage: App or web.
     * Registration: Required.
@@ -86,9 +89,11 @@ These are all non-subscription prices. Subscription services may allow cheaper p
     * Notes:
         * 15 minutes free during which time use app/web to confirm continuation.
 * Shell Recharge (part of NewMotion): [https://www.shell.co.uk/motorist/ev-charging.html](https://www.shell.co.uk/motorist/ev-charging.html)
-    * Usage: Contactless, app, RFID, Octopus Electric Juice.
+    * Usage: Contactless, app, RFID, Octopus Electric Juice, Plugsurfing.
     * Registration: Required only for RFID.
-    * Pricing: 39 p/kWh.
+    * Pricing:
+        * 39 p/kWh (Contactless, app, RFID, Octopus Electic Juice).
+        * 49 p/Kwh (Plugsurfing).
 
 ## Jargon
 
