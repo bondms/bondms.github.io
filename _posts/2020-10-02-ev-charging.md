@@ -137,7 +137,7 @@ Although the first cable is rated to a higher power, there are cases where using
     * The first cable provides 11 kW. The cable's 16 Amp limit applies to each phase.
     * The second cable provides 7.2 kW. The cable's single phase prevents use of the the other two phases.
 
-To avoid these potential charging-speed limitations, a more versatile cable could be used that provides 3-phasea at 32 Amps. This would avoid the need to carry or select between multiple cables, but such a cable is likely to be bigger, heavier, and more expensive than either of the other options.
+To avoid these potential charging-speed limitations, a more versatile cable could be used that provides 3-phases at 32 Amps. This would avoid the need to carry or select between multiple cables, but such a cable is likely to be bigger, heavier, and more expensive than either of the other options.
 
 ## Home charging
 
