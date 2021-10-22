@@ -127,13 +127,15 @@ Consider a user with the following two cables (both being type 2, mode 3):
 
 Although the first cable is rated to a higher power, there are cases where using the second cable may provide a faster charging rate (such as in the first of these scenarios):
 
-* 7 kW, 1-phase charger:
+* 3.7 kW (1-phase charger @ 16 Amp):
+    * Either cable is capable of providing the full 3.7 kW.
+* 7 kW (1-phase charger @ 32 Amp):
     * The first cable provides only 3 kW. The 16 Amp limitation prevents full use of the one available phase.
     * The second cable provides the full 7 kW.
-* 11 kW, 3-phase charger:
+* 11 kW (3-phase charger @ 16 Amp):
     * The first cable provides the full 11 kW.
     * The second cable provides 3.6 kW. The cable's single phase prevents use of the the other two phases.
-* 22 kW, 3-phase charger:
+* 22 kW (3-phase charger @ 32 Amp):
     * The first cable provides 11 kW. The cable's 16 Amp limit applies to each phase.
     * The second cable provides 7.2 kW. The cable's single phase prevents use of the the other two phases.
 
