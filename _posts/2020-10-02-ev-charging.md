@@ -109,8 +109,9 @@ These are all non-subscription prices. Subscription services may allow cheaper p
     * Usage: Contactless, app, RFID, Octopus Electric Juice, Plugsurfing.
     * Registration: Required only for RFID.
     * Pricing:
-        * 39 p/kWh (Contactless, app, RFID, Octopus Electic Juice).
-        * 49 p/Kwh (Plugsurfing).
+        * 45 p/kWh (rapid chargers: Contactless, app, RFID, Octopus Electic Juice).
+        * 49 p/kWh (ultra-rapid chargers: Contactless, app, RFID, Octopus Electic Juice).
+        * TBC p/Kwh (Plugsurfing).
 
 ## Jargon
 
