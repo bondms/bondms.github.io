@@ -25,32 +25,18 @@ These are all non-subscription prices. Subscription services may allow cheaper p
     * Pricing:
         * All charges on basic access are subject to a minimum spend of £1.20.
         * Some chargers also incur a cost per kWh, typically:
-            * Until 1 December 2021:
-                * 16-27 p/kWh with a subscription:
-                    * 16p for up to 22 kW AC.
-                    * 23p for 43 kW AC or 50 kW DC.
-                    * 27p for 150 kW+ DC.
-                * 20-42 p/kWh with free membership:
-                    * 20p for up to 22 kW AC.
-                    * 29p for 43 kW AC or 50 kW DC.
-                    * 42p for 150 kW+ DC.
-                * 26-42 p/kWh as a guest:
-                    * 26p for up to 22 kW AC.
-                    * 35p for 43 kW AC or 50 kW DC.
-                    * 42p for 150 kW+ DC.
-            * From 1 December 2021:
-                * 28-38 p/kWh with a subscription:
-                    * 28p for up to 22 kW AC.
-                    * 32p for 43 kW AC or 50 kW DC.
-                    * 38p for 150 kW+ DC.
-                * 33-44 p/kWh with free membership:
-                    * 33p for up to 22 kW AC.
-                    * 38p for 43 kW AC or 50 kW DC.
-                    * 44p for 150 kW+ DC.
-                * 35-50 p/kWh as a guest:
-                    * 35p for up to 22 kW AC.
-                    * 40p for 43 kW AC or 50 kW DC.
-                    * 50p for 150 kW+ DC.
+            * 28-38 p/kWh with a subscription:
+                * 28p for up to 22 kW AC.
+                * 32p for 43 kW AC or 50 kW DC.
+                * 38p for 150 kW+ DC.
+            * 33-44 p/kWh with free membership:
+                * 33p for up to 22 kW AC.
+                * 38p for 43 kW AC or 50 kW DC.
+                * 44p for 150 kW+ DC.
+            * 35-50 p/kWh as a guest:
+                * 35p for up to 22 kW AC.
+                * 40p for 43 kW AC or 50 kW DC.
+                * 50p for 150 kW+ DC.
         * £10 overstay charge for exceeding 90 minutes on DC chargers.
 * ChargePoint: [https://www.chargepoint.com/](https://www.chargepoint.com/)
     * Usage: App or RFID.
