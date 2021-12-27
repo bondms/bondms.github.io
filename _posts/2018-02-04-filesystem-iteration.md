@@ -163,7 +163,7 @@ find -print0 |
   xargs --null --no-run-if-empty --max-args 1 echo "Found: "
 ```
 
-If using ```-I{}``` then the ```-max-args 1``` is implicit:
+If using ```-I{}``` then the ```--max-args 1``` is implicit:
 
 ```bash
 find -print0 |
