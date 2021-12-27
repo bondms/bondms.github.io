@@ -19,7 +19,7 @@ Networks typically have their own web or app map to locate their chargers, but t
 
 These are all non-subscription prices. Subscription services may allow cheaper per-unit pricing.
 
-* BP Pulse (previously BP Chargemaster / Polar): [https://www.bppulse.co.uk/charging-on-the-go](https://www.bppulse.co.uk/charging-on-the-go)
+* [BP Pulse](https://www.bppulse.co.uk/charging-on-the-go) (previously BP Chargemaster / Polar):
     * Usage: Contactless or app.
     * Registration: No required for contactless.
     * Pricing:
@@ -38,7 +38,7 @@ These are all non-subscription prices. Subscription services may allow cheaper p
                 * 40p for 43 kW AC or 50 kW DC.
                 * 50p for 150 kW+ DC.
         * £10 overstay charge for exceeding 90 minutes on DC chargers.
-* ChargePoint: [https://www.chargepoint.com/](https://www.chargepoint.com/)
+* [ChargePoint](https://www.chargepoint.com/):
     * Usage: App or RFID.
     * Registration: Required.
     * Pricing: Variable. Some free for an initial period.
@@ -46,32 +46,32 @@ These are all non-subscription prices. Subscription services may allow cheaper p
         * £10 charged and added to account on first use of non-free charger.
         * First RFID is provided free of charge on request.
         * Phone's NFC can be used.
-* e.on: [https://map.eondrive.co.uk/](https://map.eondrive.co.uk/)
+* e.on(https://map.eondrive.co.uk/):
     * Usage: Contactless, app, web or RFID.
     * Registration: Not required.
     * Pricing: Variable.
-* Ecotricity/Electric Highway: [https://www.ecotricity.co.uk/](https://www.ecotricity.co.uk/)
+* [Ecotricity/Electric Highway](https://www.ecotricity.co.uk/):
     * Usage: App.
     * Registration: Not required; guest access available with the app.
     * Pricing: 30 p/kWh.
     * Notes:
         * Maximum 45 minutes charge per session.
-* Franklin Energy RAPID LiFe EV: [https://franklinenergy.co.uk/rapid-life-ev/](https://franklinenergy.co.uk/rapid-life-ev/)
+* [Franklin Energy RAPID LiFe EV](https://franklinenergy.co.uk/rapid-life-ev/):
     * Usage: App or RFID (Plugsurfing / Octopus Juice).
     * Registration: Required.
-* GeniePoint: [https://www.geniepoint.co.uk/](https://www.geniepoint.co.uk/)
+* [GeniePoint](https://www.geniepoint.co.uk/):
     * Usage: App, web or RFID.
     * Registration: Required for RFID. Guest access available with app and web.
     * Pricing:
         * 42 p/kWh (registered user, TBC).
         * 42 p/kWh (guest, TBC).
-* Gridserve: [https://gridserve.com/braintree-overview/](https://gridserve.com/braintree-overview/)
+* [Gridserve](https://gridserve.com/braintree-overview/):
     * Pricing: 24 p/kWh (at Braintree Electric Forecourt)
-* Instavolt: [https://instavolt.co.uk/](https://instavolt.co.uk/)
+* [Instavolt](https://instavolt.co.uk/):
     * Usage: Contactless.
     * Registration: Not required.
     * Pricing: 40 p/kWh.
-* Ionity: [https://ionity.eu/](https://ionity.eu/)
+* [Ionity](https://ionity.eu/):
     * Usage: Contactless, web, Octopus Electric Juice, Plugsurfing.
     * Registration: Not required.
     * Pricing:
@@ -79,19 +79,19 @@ These are all non-subscription prices. Subscription services may allow cheaper p
         * 66 p/kWh (Octopus Electric Juice including 5% discount).
         * 77 p/kWh (Plugsurfing).
         * 0.35 EUR/kWh (Plugsurfing with Polestar/Volvo offer from 1 July 2021 for at least 12 months).
-* Osprey (previously engenie): [https://ospreycharging.co.uk/](https://ospreycharging.co.uk/)
+* [Osprey](https://ospreycharging.co.uk/) (previously engenie):
     * Usage: Contactless, Octopus Electric Juice, Plugsurfing.
     * Registration: Not required.
     * Pricing:
         * 36 p/kWh (Contactless, Octopus Electric Juice).
         * 48 p/kWh (Plugsurfing).
-* Pod Point: [https://pod-point.com/](https://pod-point.com/)
+* [Pod Point](https://pod-point.com/):
     * Usage: App or web.
     * Registration: Required.
     * Pricing: Variable. Some free.
     * Notes:
         * 15 minutes free during which time use app/web to confirm continuation.
-* Shell Recharge (part of NewMotion): [https://www.shell.co.uk/motorist/ev-charging.html](https://www.shell.co.uk/motorist/ev-charging.html)
+* [Shell Recharge](https://www.shell.co.uk/motorist/ev-charging.html) (part of NewMotion):
     * Usage: Contactless, app, RFID, Octopus Electric Juice, Plugsurfing.
     * Registration: Required only for RFID.
     * Pricing:
