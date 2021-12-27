@@ -14,7 +14,7 @@ In this article I will primarily consider shell scripts; use of a programming la
 
 A naive implementation will often fail when encountering file or directory names that contain unusual characters, such as:
 
-* Whitespace: space, tab, and even new-line characters are possible in file names.
+* Whitespace: space, tab, and even new-line characters are possible in filenames.
 * Quotes: single (‘) or double (“).
 * Wildcards (* or ?).
 * Special characters that are interpreted by the shell, such as a dollar sign ($) or backtick (`).
@@ -48,7 +48,7 @@ bash: -c: line 0: unexpected EOF while looking for matching `''
 bash: -c: line 1: syntax error: unexpected end of file
 ```
 
-The ```bash``` command string attempts to handle special characters within file names by enclosing the name within single quotes, but this doesn't work when a single quote character is present in the file name.
+The ```bash``` command string attempts to handle special characters within filenames by enclosing the name within single quotes, but this doesn't work when a single quote character is present in the filename.
 
 ### Failure to correctly report an error
 
