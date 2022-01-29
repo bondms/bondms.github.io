@@ -12,28 +12,78 @@ Although convenient, there are some pitfalls of using Bash that should be avoide
 
 ### Not checking for errors
 
- Unlike many languages (including C++ and Python) that can throw exceptions when an error occurs, bash normally indicates failure through return values. If the value is not checked, program execution continues to the next statement. This is often undesirable since it may cause code that expects a particular precondition to be executed without that precondition being met.
+Unlike many languages (including C++ and Python) that can throw exceptions when an error occurs, bash normally indicates failure through return values. If the value is not checked, program execution continues to the next statement. This is often undesirable since it may cause code that expects a particular precondition to be executed without that precondition being met.
 
- Use of ```set -e``` and ```set -o pipefail``` go some way toward addressing this issue, but they still don't guaratee immediate exit in the case of an error. For example, consider:
+Use of ```set -e``` and ```set -o pipefail``` go some way toward addressing this issue, but they still don't guaratee immediate exit in the case of an error. For example, consider:
 
- ```bash
- set -e
- set -o pipefail
+```bash
+set -e
+set -o pipefail
 
- function something()
- {
-   do_something
-   return 0
- }
+function something()
+{
+  do_something
+  return 0
+}
 
- something || something_else
- ```
+something || something_else
+```
 
- In this example, the ```something``` function assumes that ```set -e``` will cause the script to terminate if ```do_something``` fails, so it returns 0 to indicate success if executation passes that point. However, because ```something``` is called as part of a list, the behaviour is not as intended, ```something``` will still return success and ```something_else``` will not be called.
+In this example, the ```something``` function assumes that ```set -e``` will cause the script to terminate if ```do_something``` fails, so it returns 0 to indicate success if executation passes that point. However, because ```something``` is called as part of a list, the behaviour is not as intended, ```something``` will still return success and ```something_else``` will not be called.
 
- A workaround, albeit one that is tedious and easy to forget, is to ensure that the result of every command is tested, e.g. ```do_something || exit $?```.
+A workaround, albeit one that is tedious and easy to forget, is to ensure that the result of every command is tested, e.g. ```do_something || exit $?```.
 
-## A basic template
+### Assuming the working directory is the same directory as the script's location
+
+A script may be launched from an environment where the current working directory (CWD) is not the same as the directory containing the script. In this case, relative paths (i.e. those relative to the CWD) will be incorrect.
+
+There are two approaches to avoiding this.
+
+#### Avoid use of relative paths
+
+Paths relative to the CWD can be avoided by always referring to paths relative to the absolute location of the script, e.g.
+
+```
+#!/bin/bash
+
+HERE="$(readlink -f "$(dirname "$0")")"
+
+some_command -- "${HERE}/some_file_located_alongside_the_script" || exit $?
+```
+
+#### Change the CWD for the duration of the script
+
+Sometimes avoiding the use of relative paths is difficult, for example you might need to call an external command that looks for files relative to the CWD. In that case, you can hange the CWD to the script's location at the start of the script, e.g.
+
+```
+#!/bin/bash
+
+HERE="$(readlink -f "$(dirname "$0")")"
+pushd -- "${HERE}" || exit $?
+
+...
+```
+
+### Not allowing for special characters in paths
+
+As described in my article of [filesystem iteration](2018-02-04-filesystem-iteration.md), posix directory and file names can contains a variety of special characters that may be unintentionally interpretted by the shell. Care needs to be taken to avoid this. Some techniques that may be helpful include:
+
+* Quote path arguments.
+* Separate option arguments from path arguments with `--`.
+
+For example:
+
+```
+!/bin/bash
+
+ls -l -- "$1"
+```
+
+Without the `--`, if a string beginning with a hypen is passed as `$1`, the `ls` command would interpret it as an option rather than as a path.
+
+Without the quotes, if a path containing spaces is passed as `$1`, the `ls` command would interpret it as two separate paths.
+
+## Example template
 
 ```bash
 #!/bin/bash
@@ -76,6 +126,9 @@ function abort()
 HERE="$(readlink -f "$(dirname "$0")")"
 [[ -d "${HERE}" ]] || abort "Failed to locate script."
 
+pushd -- "${HERE}" || exit $?
+trap "popd" EXIT || exit $?
+
 # Overridable settings.
 MUTEX_PATH="${MUTEX_PATH:-/var/lock/scripting_$(basename "$0" .sh)}"
 
@@ -91,6 +144,8 @@ MUTEX_PATH="${MUTEX_PATH:-/var/lock/scripting_$(basename "$0" .sh)}"
   log_error "Example error message."
   abort "Development in progress"
 ) 9>"${MUTEX_PATH}"
+
+popd || exit $?
 
 echo "$0 completed."
 ```
