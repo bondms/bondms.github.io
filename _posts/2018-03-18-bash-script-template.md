@@ -41,7 +41,7 @@ There are two approaches to avoiding this.
 
 #### Avoid use of relative paths
 
-Paths relative to the CWD can be avoided by always referring to paths relative to the absolute location of the script, e.g.
+Avoid referring to paths relative to the CWD by instead prefixing them with the absolute path to the location of the script, e.g.
 
 ```
 #!/bin/bash
@@ -53,7 +53,7 @@ some_command -- "${HERE}/some_file_located_alongside_the_script" || exit $?
 
 #### Change the CWD for the duration of the script
 
-Sometimes avoiding the use of relative paths is difficult, for example you might need to call an external command that looks for files relative to the CWD. In that case, you can hange the CWD to the script's location at the start of the script, e.g.
+Sometimes avoiding the use of relative paths is difficult, for example you might need to call an external command that looks for files relative to the CWD. In that case, the CWD can be changed to the script's location at the start of execution, e.g.
 
 ```
 #!/bin/bash
@@ -66,10 +66,10 @@ pushd -- "${HERE}" || exit $?
 
 ### Not allowing for special characters in paths
 
-As described in my article of [filesystem iteration](2018-02-04-filesystem-iteration.md), posix directory and file names can contains a variety of special characters that may be unintentionally interpretted by the shell. Care needs to be taken to avoid this. Some techniques that may be helpful include:
+As described in my article of [filesystem iteration](https://bondms.github.io/2018/02/04/filesystem-iteration.html), posix directory and file names can contain a variety of special characters that may be unintentionally interpretted by the shell. Care needs to be taken to avoid this. Some techniques that may be helpful include:
 
-* Quote path arguments.
-* Separate option arguments from path arguments with `--`.
+* Quoting path arguments.
+* Separating option arguments from path arguments with `--`.
 
 For example:
 
@@ -125,9 +125,7 @@ function abort()
 
 HERE="$(readlink -f "$(dirname "$0")")"
 [[ -d "${HERE}" ]] || abort "Failed to locate script."
-
 pushd -- "${HERE}" || exit $?
-trap "popd" EXIT || exit $?
 
 # Overridable settings.
 MUTEX_PATH="${MUTEX_PATH:-/var/lock/scripting_$(basename "$0" .sh)}"
@@ -144,8 +142,6 @@ MUTEX_PATH="${MUTEX_PATH:-/var/lock/scripting_$(basename "$0" .sh)}"
   log_error "Example error message."
   abort "Development in progress"
 ) 9>"${MUTEX_PATH}"
-
-popd || exit $?
 
 echo "$0 completed."
 ```
