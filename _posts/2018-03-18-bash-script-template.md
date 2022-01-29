@@ -66,7 +66,7 @@ pushd -- "${HERE}" || exit $?
 
 ### Not allowing for special characters in paths
 
-As described in my article of [filesystem iteration](https://bondms.github.io/2018/02/04/filesystem-iteration.html), posix file and directory names can contain a variety of special characters that may be unintentionally interpretted by the shell. Care needs to be taken to avoid this. Some techniques that may be helpful include:
+As described in my article on [filesystem iteration](https://bondms.github.io/2018/02/04/filesystem-iteration.html), posix file and directory names can contain a variety of special characters that may be unintentionally interpretted by the shell. Care needs to be taken to avoid this. Some techniques that may be helpful include:
 
 * Quoting path arguments.
 * Separating option arguments from path arguments with `--`.
