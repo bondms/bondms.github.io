@@ -105,7 +105,7 @@ These are all non-subscription prices. Subscription services may allow cheaper p
 
 * Mode 1: Use of a standard domestic socket without safety protection. Limited to 8 Amp / 2 kW. Not suitable for most EVs.
 * Mode 2: Use of a stardard domestic socket or a commando socket with an in-cord control and protection device. Limited to 10 Amp / 2.4 kW for domestic sockets, 12 Amp from a commando socket.
-* Mode 3: AC fast charging up to 22 kW. May be 1 or 3 phase. A typical 1 phase home charger is limited to 7 kW.
+* Mode 3: AC fast charging up to 22 kW. May be 1 or 3 phase. A typical 1 phase home charger is limited to 7.4 kW.
 * Mode 4: DC fast or rapid charging.
 
 ### Connectors
@@ -124,21 +124,21 @@ Some AC chargers, however, are untethered and require the user to provide a cabl
 Consider a user with the following two cables (both being type 2, mode 3):
 
 * 3-phase, 16 Amp (11 kW).
-* 1-phase, 32 Amp (7.2 kW).
+* 1-phase, 32 Amp (7.4 kW).
 
 Although the first cable is rated to a higher power, there are cases where using the second cable may provide a faster charging rate (such as in the first of these scenarios):
 
 * 3.7 kW (1-phase charger @ 16 Amp):
     * Either cable is capable of providing the full 3.7 kW.
-* 7 kW (1-phase charger @ 32 Amp):
-    * The first cable provides only 3 kW. The 16 Amp limitation prevents full use of the one available phase.
-    * The second cable provides the full 7 kW.
+* 7.4 kW (1-phase charger @ 32 Amp):
+    * The first cable provides only 3.7 kW. The 16 Amp limitation prevents full use of the one available phase.
+    * The second cable provides the full 7.4 kW.
 * 11 kW (3-phase charger @ 16 Amp):
     * The first cable provides the full 11 kW.
-    * The second cable provides 3.6 kW. The cable's single phase prevents use of the the other two phases.
+    * The second cable provides 3.7 kW. The cable's single phase prevents use of the the other two phases.
 * 22 kW (3-phase charger @ 32 Amp):
     * The first cable provides 11 kW. The cable's 16 Amp limit applies to each phase.
-    * The second cable provides 7.2 kW. The cable's single phase prevents use of the the other two phases.
+    * The second cable provides 7.4 kW. The cable's single phase prevents use of the the other two phases.
 
 To avoid these potential charging-speed limitations, a more versatile cable could be used that provides 3-phases at 32 Amps. This would avoid the need to carry or select between multiple cables, but such a cable is likely to be bigger, heavier, and more expensive than either of the other options.
 
@@ -180,7 +180,7 @@ Home charging, however, is much more predictable. Here are some examples:
 
 #### At 32 Amps (typical 1-phase home EV charger):
 
-* Power: `32 Amps * 240 Volts = 7.68 kW` (Actual rating is typically 7.4 kW).
+* Power: `32 Amps * 240 Volts = 7.68 kW` (Official rating of 7.4 kW assumes 230 Volts).
 * Range gain rate: `7.4 kW / 280 kWh per 1000 miles * 1000 miles = ~26.5 mph`
 * Nightly energy gain: `7.4 kW * 4 h = 29.6 kWh`
 * Nightly percentage gain: `29.6 kWh / 78 kWh * 100 =  ~38 %`
