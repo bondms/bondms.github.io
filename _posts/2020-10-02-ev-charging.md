@@ -83,8 +83,8 @@ These are all non-subscription prices. Subscription services may allow cheaper p
     * Usage: Contactless, Octopus Electric Juice, Plugsurfing.
     * Registration: Not required.
     * Pricing:
-        * 36 p/kWh (Contactless, Octopus Electric Juice).
-        * 48 p/kWh (Plugsurfing).
+        * 40 p/kWh (Contactless, Octopus Electric Juice). Increasing to 49 p/kWh from 17 March 2022.
+        * TBC p/kWh (Plugsurfing, likely more expensive).
 * [Pod Point](https://pod-point.com/):
     * Usage: App or web.
     * Registration: Required.
@@ -97,7 +97,7 @@ These are all non-subscription prices. Subscription services may allow cheaper p
     * Pricing:
         * 45 p/kWh (rapid chargers: Contactless, app, RFID, Octopus Electic Juice).
         * 49 p/kWh (ultra-rapid chargers: Contactless, app, RFID, Octopus Electic Juice).
-        * TBC p/Kwh (Plugsurfing).
+        * TBC p/Kwh (Plugsurfing, likely more expensive).
 
 ## Jargon
 
