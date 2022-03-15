@@ -63,8 +63,7 @@ These are all non-subscription prices. Subscription services may allow cheaper p
     * Usage: App, web or RFID.
     * Registration: Required for RFID. Guest access available with app and web.
     * Pricing:
-        * 42 p/kWh (registered user, TBC).
-        * 42 p/kWh (guest, TBC).
+        * 42 p/kWh. Increasing to 48 p/kWh from 29 March 2022.
 * [Gridserve](https://gridserve.com/braintree-overview/):
     * Pricing: 24 p/kWh (at Braintree Electric Forecourt)
 * [Instavolt](https://instavolt.co.uk/):
