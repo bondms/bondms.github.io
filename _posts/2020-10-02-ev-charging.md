@@ -25,18 +25,18 @@ These are all non-subscription prices. Subscription services may allow cheaper p
     * Pricing:
         * All charges on basic access are subject to a minimum spend of £1.20.
         * Some chargers also incur a cost per kWh, typically:
-            * 28-38 p/kWh with a subscription:
-                * 28p for up to 22 kW AC. Increasing to 30p from 17 March 2022.
-                * 32p for 43 kW AC or 50 kW DC. Increasing to 38p from 17 March 2022.
-                * 38p for 150 kW+ DC. Increasing to 40p from 17 March 2022.
-            * 33-44 p/kWh with free membership:
-                * 33p for up to 22 kW AC. Increasing to 38p from 17 March 2022.
-                * 38p for 43 kW AC or 50 kW DC. Increasing to 48p from 17 March 2022.
-                * 44p for 150 kW+ DC. Increasing to 50p from 17 March 2022.
-            * 35-50 p/kWh as a guest:
-                * 35p for up to 22 kW AC. Increasing to 40p from 17 March 2022.
-                * 40p for 43 kW AC or 50 kW DC. Increasing to 50p from 17 March 2022.
-                * 50p for 150 kW+ DC. Increasing to 55p from 17 March 2022.
+            * With a subscription:
+                * 30p for up to 22 kW AC.
+                * 38p for 43 kW AC or 50 kW DC.
+                * 40p for 150 kW+ DC.
+            * With free membership:
+                * 38p for up to 22 kW AC.
+                * 48p for 43 kW AC or 50 kW DC.
+                * 50p for 150 kW+ DC.
+            * As a guest:
+                * 40p for up to 22 kW AC.
+                * 50p for 43 kW AC or 50 kW DC.
+                * 55p for 150 kW+ DC.
         * £10 overstay charge for exceeding 90 minutes on DC chargers.
 * [ChargePoint](https://www.chargepoint.com/):
     * Usage: App or RFID.
@@ -82,7 +82,7 @@ These are all non-subscription prices. Subscription services may allow cheaper p
     * Usage: Contactless, Octopus Electric Juice, Plugsurfing.
     * Registration: Not required.
     * Pricing:
-        * 40 p/kWh (Contactless, Octopus Electric Juice). Increasing to 49 p/kWh from 17 March 2022.
+        * 49 p/kWh (Contactless, Octopus Electric Juice).
         * TBC p/kWh (Plugsurfing, likely more expensive).
 * [Pod Point](https://pod-point.com/):
     * Usage: App or web.
