@@ -6,7 +6,9 @@ title: Electric vehicle charging
 
 These notes are for the UK.
 
-## Locating
+## Public charging
+
+### Locating
 
 Networks typically have their own web or app map to locate their chargers, but there are also solutions that combine many networks:
 
@@ -15,7 +17,7 @@ Networks typically have their own web or app map to locate their chargers, but t
 * ZapMap: [https://www.zap-map.com/](https://www.zap-map.com/)
     * Allows users to provide feedback on charger status etc. so others can avoid faulty units without first having to travel there.
 
-## Charging networks:
+### Charging networks:
 
 These are all non-subscription prices. Subscription services may allow cheaper per-unit pricing.
 
@@ -150,6 +152,10 @@ To avoid these potential charging-speed limitations, a more versatile cable coul
 Octopus offer a range of good tariffs with some that are especially good for EV owners. Octopus Go and Octopus Agile both offer cheap off-peak electricity, so are ideal if you can schedule your charging to fit in with off-peak times.
 
 Octopus referral code: [share.octopus.energy/topaz-sheep-824](https://share.octopus.energy/topaz-sheep-824)
+
+### Equipment
+
+Smart Home Charge referral code: `SHC#Fresh-Amazing-Performing`. Details are [here](https://www.smarthomecharge.co.uk/ejn-referral-scheme/).
 
 ### Charging speeds
 
