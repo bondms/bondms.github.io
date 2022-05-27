@@ -28,17 +28,17 @@ These are all non-subscription prices. Subscription services may allow cheaper p
         * All charges on basic access are subject to a minimum spend of £1.20.
         * Some chargers also incur a cost per kWh, typically:
             * With a subscription (£7.85 per month):
-                * 30 p/kWh for up to 22 kW AC (35 p/kWh from 26th May 2022).
-                * 38 p/kWh for 43 kW AC or 50 kW DC (43 p/kWh from 26th May 2022).
-                * 40 p/kWh for 150 kW+ DC (45 p/kWh from 26th May 2022).
+                * 35 p/kWh for up to 22 kW AC.
+                * 43 p/kWh for 43 kW AC or 50 kW DC.
+                * 45 p/kWh for 150 kW+ DC.
             * As a registered user:
-                * 38 p/kWh for up to 22 kW AC (43 p/kWh from 26th May 2022).
-                * 48 p/kWh for 43 kW AC or 50 kW DC (54 p/kWh from 26th May 2022).
-                * 50 p/kWh for 150 kW+ DC (57 p/kWh from 26th May 2022).
+                * 43 p/kWh for up to 22 kW AC.
+                * 54 p/kWh for 43 kW AC or 50 kW DC.
+                * 57 p/kWh for 150 kW+ DC.
             * As a guest:
-                * 40 p/kWh for up to 22 kW AC (45 p/kWh from 26th May 2022).
-                * 50 p/kWh for 43 kW AC or 50 kW DC (56 p/kWh from 26th May 2022).
-                * 55 p/kWh for 150 kW+ DC (59 p/kWh from 26th May 2022).
+                * 45 p/kWh for up to 22 kW AC.
+                * 56 p/kWh for 43 kW AC or 50 kW DC.
+                * 59 p/kWh for 150 kW+ DC.
         * £10 overstay charge for exceeding 90 minutes on DC chargers.
 * [ChargePoint](https://www.chargepoint.com/):
     * Usage: App or RFID.
