@@ -81,7 +81,7 @@ These are all non-subscription prices. Subscription services may allow cheaper p
         * 69 p/kWh (contactless, web).
         * 66 p/kWh (Octopus Electric Juice including 5% discount).
         * 77 p/kWh (Plugsurfing).
-        * 0.35 EUR/kWh (Plugsurfing with Polestar/Volvo offer from 1 July 2021 for at least 12 months).
+        * 30 p/kWh (Plugsurfing with Polestar/Volvo offer from 1 July 2021 for 18 months).
 * [Osprey](https://ospreycharging.co.uk/) (previously engenie):
     * Usage: Contactless, Octopus Electric Juice, Plugsurfing.
     * Registration: Not required.
