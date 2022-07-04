@@ -65,7 +65,7 @@ These are all non-subscription prices. Subscription services may allow cheaper p
     * Usage: App, web or RFID.
     * Registration: Required for RFID. Guest access available with app and web.
     * Pricing:
-        * 48 p/kWh.
+        * 57 p/kWh.
 * [Gridserve](https://www.gridserve.com/ev-power-overview/):
     * Usage: Contactless.
     * Registration: Not required.
