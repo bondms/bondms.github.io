@@ -58,6 +58,11 @@ These are all non-subscription prices. Subscription services may allow cheaper p
     * Pricing: 30 p/kWh.
     * Notes:
         * Maximum 45 minutes charge per session.
+* [Fastned](https://fastnedcharging.com/en/):
+    * Usage: App, chargecard (Octopus Electric Juice, Plugsurfing, and more), or Autocharge.
+    * Pricing:
+        * Pay-as-you-go: 54 p/kWh.
+        * Gold membership: 35 p/kWh.
 * [Franklin Energy RAPID LiFe EV](https://franklinenergy.co.uk/rapid-life-ev/):
     * Usage: App or RFID (Plugsurfing / Octopus Juice).
     * Registration: Required.
