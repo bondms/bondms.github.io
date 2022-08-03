@@ -107,8 +107,8 @@ These are all non-subscription prices. Subscription services may allow cheaper p
     * Usage: Contactless, app, RFID, Octopus Electric Juice, Plugsurfing.
     * Registration: Required only for RFID.
     * Pricing:
-        * 45 p/kWh (rapid chargers: Contactless, app, RFID, Octopus Electic Juice).
-        * 49 p/kWh (ultra-rapid chargers: Contactless, app, RFID, Octopus Electic Juice).
+        * 59 p/kWh (rapid chargers: Contactless, app, RFID, Octopus Electic Juice).
+        * 65 p/kWh (ultra-rapid chargers: Contactless, app, RFID, Octopus Electic Juice).
         * TBC p/Kwh (Plugsurfing, likely more expensive).
 * [Tesla Supercharger](https://www.tesla.com/en_gb/supercharger)
     *  Tesla have opened up a subset of their superchargers for use by non-Tesla car as part of a [trial](https://www.autoexpress.co.uk/tesla/358026/15-tesla-supercharger-sites-open-non-tesla-vehicles-uk).
