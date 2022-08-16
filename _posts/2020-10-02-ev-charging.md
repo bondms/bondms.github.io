@@ -82,7 +82,7 @@ These are all non-subscription prices. Subscription services may allow cheaper p
 * [Instavolt](https://instavolt.co.uk/):
     * Usage: Contactless.
     * Registration: Not required.
-    * Pricing: 57 p/kWh.
+    * Pricing: 66 p/kWh.
 * [Ionity](https://ionity.eu/):
     * Usage: Contactless, web, Octopus Electric Juice, Plugsurfing.
     * Registration: Not required.
