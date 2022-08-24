@@ -67,7 +67,7 @@ These are all non-subscription prices. Subscription services may allow cheaper p
     * Usage: App or RFID ([Plugsurfing](https://plugsurfing.com/) / [Octopus Electric Universe](https://electroverse.octopus.energy/)).
     * Registration: Required.
 * [GeniePoint](https://www.geniepoint.co.uk/):
-    * Usage: App, web or RFID.
+    * Usage: App, web, RFID, [Octopus Electric Universe](https://electroverse.octopus.energy/).
     * Registration: Required for RFID. Guest access available with app and web.
     * Pricing:
         * 57 p/kWh.
