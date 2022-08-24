@@ -59,12 +59,12 @@ These are all non-subscription prices. Subscription services may allow cheaper p
     * Notes:
         * Maximum 45 minutes charge per session.
 * [Fastned](https://fastnedcharging.com/en/):
-    * Usage: App, chargecard (Octopus Electric Juice, Plugsurfing, and more), or Autocharge.
+    * Usage: App, chargecard ([Octopus Electric Universe](https://electroverse.octopus.energy/), [Plugsurfing](https://plugsurfing.com/), and more), or Autocharge.
     * Pricing:
         * Pay-as-you-go: 54 p/kWh.
         * Gold membership: 35 p/kWh.
 * [Franklin Energy RAPID LiFe EV](https://franklinenergy.co.uk/rapid-life-ev/):
-    * Usage: App or RFID (Plugsurfing / Octopus Juice).
+    * Usage: App or RFID ([Plugsurfing](https://plugsurfing.com/) / [Octopus Electric Universe](https://electroverse.octopus.energy/)).
     * Registration: Required.
 * [GeniePoint](https://www.geniepoint.co.uk/):
     * Usage: App, web or RFID.
@@ -84,19 +84,19 @@ These are all non-subscription prices. Subscription services may allow cheaper p
     * Registration: Not required.
     * Pricing: 66 p/kWh.
 * [Ionity](https://ionity.eu/):
-    * Usage: Contactless, web, Octopus Electric Juice, Plugsurfing.
+    * Usage: Contactless, web, [Octopus Electric Universe](https://electroverse.octopus.energy/), [Plugsurfing](https://plugsurfing.com/).
     * Registration: Not required.
     * Pricing:
         * 69 p/kWh (contactless, web).
-        * 66 p/kWh (Octopus Electric Juice including 5% discount).
-        * 77 p/kWh (Plugsurfing).
-        * 30 p/kWh (Plugsurfing with Polestar/Volvo offer from 1 July 2021 for 18 months).
+        * 66 p/kWh ([Octopus Electric Universe](https://electroverse.octopus.energy/) including 5% discount).
+        * 77 p/kWh ([Plugsurfing](https://plugsurfing.com/)).
+        * 30 p/kWh ([Plugsurfing](https://plugsurfing.com/) with Polestar/Volvo offer from 1 July 2021 for 18 months).
 * [Osprey](https://ospreycharging.co.uk/) (previously engenie):
-    * Usage: Contactless, Octopus Electric Juice, Plugsurfing.
+    * Usage: Contactless, [Octopus Electric Universe](https://electroverse.octopus.energy/), [Plugsurfing](https://plugsurfing.com/).
     * Registration: Not required.
     * Pricing:
-        * 49 p/kWh (Contactless, Octopus Electric Juice).
-        * TBC p/kWh (Plugsurfing, likely more expensive).
+        * 49 p/kWh (Contactless, [Octopus Electric Universe](https://electroverse.octopus.energy/)).
+        * TBC p/kWh ([Plugsurfing](https://plugsurfing.com/), likely more expensive).
 * [Pod Point](https://pod-point.com/):
     * Usage: App or web.
     * Registration: Required.
@@ -104,12 +104,12 @@ These are all non-subscription prices. Subscription services may allow cheaper p
     * Notes:
         * 15 minutes free during which time use app/web to confirm continuation.
 * [Shell Recharge](https://www.shell.co.uk/motorist/ev-charging.html) (part of NewMotion):
-    * Usage: Contactless, app, RFID, Octopus Electric Juice, Plugsurfing.
+    * Usage: Contactless, app, RFID, [Octopus Electric Universe](https://electroverse.octopus.energy/), [Plugsurfing](https://plugsurfing.com/).
     * Registration: Required only for RFID.
     * Pricing:
-        * 59 p/kWh (rapid chargers: Contactless, app, RFID, Octopus Electic Juice).
-        * 65 p/kWh (ultra-rapid chargers: Contactless, app, RFID, Octopus Electic Juice).
-        * TBC p/Kwh (Plugsurfing, likely more expensive).
+        * 59 p/kWh (rapid chargers: Contactless, app, RFID, [Octopus Electric Universe](https://electroverse.octopus.energy/)).
+        * 65 p/kWh (ultra-rapid chargers: Contactless, app, RFID, [Octopus Electric Universe](https://electroverse.octopus.energy/)).
+        * TBC p/Kwh ([Plugsurfing](https://plugsurfing.com/), likely more expensive).
 * [Tesla Supercharger](https://www.tesla.com/en_gb/supercharger)
     *  Tesla have opened up a subset of their superchargers for use by non-Tesla car as part of a [trial](https://www.autoexpress.co.uk/tesla/358026/15-tesla-supercharger-sites-open-non-tesla-vehicles-uk).
     * Usage: App.
