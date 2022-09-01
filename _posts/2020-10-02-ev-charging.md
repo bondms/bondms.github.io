@@ -23,22 +23,21 @@ These are all non-subscription prices. Subscription services may allow cheaper p
 
 * [BP Pulse](https://www.bppulse.co.uk/charging-on-the-go) (previously BP Chargemaster / Polar):
     * Usage: Contactless or app.
-    * Registration: No required for contactless.
+    * Registration: Not required for contactless.
     * Pricing:
         * All charges on basic access are subject to a minimum spend of £1.20.
         * Some chargers also incur a cost per kWh, typically:
             * With a subscription (£7.85 per month):
-                * 35 p/kWh for up to 22 kW AC.
-                * 43 p/kWh for 43 kW AC or 50 kW DC.
-                * 45 p/kWh for 150 kW+ DC.
+                * 44 p/kWh for 7 kW AC.
+                * 52 p/kWh for 43 kW AC or 50 kW DC.
+                * 55 p/kWh for 150 kW+ DC.
             * As a registered user:
-                * 43 p/kWh for up to 22 kW AC.
-                * 54 p/kWh for 43 kW AC or 50 kW DC.
-                * 57 p/kWh for 150 kW+ DC.
+                * 55 p/kWh for 7 kW AC.
+                * 63 p/kWh for 43 kW AC or 50 kW DC.
+                * 67 p/kWh for 150 kW+ DC.
             * As a guest:
-                * 45 p/kWh for up to 22 kW AC.
-                * 56 p/kWh for 43 kW AC or 50 kW DC.
-                * 59 p/kWh for 150 kW+ DC.
+                * 65 p/kWh for 43 kW AC or 50 kW DC.
+                * 69 p/kWh for 150 kW+ DC.
         * £10 overstay charge for exceeding 90 minutes on DC chargers.
 * [ChargePoint](https://www.chargepoint.com/):
     * Usage: App or RFID.
