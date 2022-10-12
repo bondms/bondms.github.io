@@ -94,7 +94,8 @@ These are all non-subscription prices. Subscription services may allow cheaper p
     * Usage: Contactless, [Octopus Electric Universe](https://electroverse.octopus.energy/), [Plugsurfing](https://plugsurfing.com/).
     * Registration: Not required.
     * Pricing:
-        * £1/kWh (Contactless, [Octopus Electric Universe](https://electroverse.octopus.energy/)).
+        * £1/kWh (Contactless).
+        * 80 p/kWh ([Octopus Electric Universe](https://electroverse.octopus.energy/)).
         * TBC p/kWh ([Plugsurfing](https://plugsurfing.com/), likely more expensive).
 * [Pod Point](https://pod-point.com/):
     * Usage: App or web.
@@ -106,8 +107,11 @@ These are all non-subscription prices. Subscription services may allow cheaper p
     * Usage: Contactless, app, RFID, [Octopus Electric Universe](https://electroverse.octopus.energy/), [Plugsurfing](https://plugsurfing.com/).
     * Registration: Required only for RFID.
     * Pricing:
-        * 59 p/kWh (rapid chargers: Contactless, app, RFID, [Octopus Electric Universe](https://electroverse.octopus.energy/)).
-        * 65 p/kWh (ultra-rapid chargers: Contactless, app, RFID, [Octopus Electric Universe](https://electroverse.octopus.energy/)).
+        * 39 p/kWh (AC chargers: [Octopus Electric Universe](https://electroverse.octopus.energy/)).
+        * 59 p/kWh (rapid chargers: Contactless, app, RFID).
+        * 55 p/kWh (rapid chargers: [Octopus Electric Universe](https://electroverse.octopus.energy/)).
+        * 65 p/kWh (ultra-rapid chargers: Contactless, app, RFID).
+        * 65 p/kWh ([Octopus Electric Universe](https://electroverse.octopus.energy/)).
         * TBC p/Kwh ([Plugsurfing](https://plugsurfing.com/), likely more expensive).
 * [Tesla Supercharger](https://www.tesla.com/en_gb/supercharger)
     *  Tesla have opened up a subset of their superchargers for use by non-Tesla car as part of a [trial](https://www.autoexpress.co.uk/tesla/358026/15-tesla-supercharger-sites-open-non-tesla-vehicles-uk).
