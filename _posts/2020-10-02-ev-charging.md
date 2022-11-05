@@ -108,10 +108,9 @@ These are all non-subscription prices. Subscription services may allow cheaper p
     * Registration: Required only for RFID.
     * Pricing:
         * 39 p/kWh (AC chargers: [Octopus Electric Universe](https://electroverse.octopus.energy/)).
-        * 59 p/kWh (rapid chargers: Contactless, app, RFID).
-        * 55 p/kWh (rapid chargers: [Octopus Electric Universe](https://electroverse.octopus.energy/)).
-        * 65 p/kWh (ultra-rapid chargers: Contactless, app, RFID).
-        * 65 p/kWh ([Octopus Electric Universe](https://electroverse.octopus.energy/)).
+        * 60 p/kWh (DC chargers: [Octopus Electric Universe](https://electroverse.octopus.energy/)).
+        * 79 p/kWh (rapid chargers: Contactless, app, RFID).
+        * 85 p/kWh (ultra-rapid chargers: Contactless, app, RFID).
         * TBC p/Kwh ([Plugsurfing](https://plugsurfing.com/), likely more expensive).
 * [Tesla Supercharger](https://www.tesla.com/en_gb/supercharger)
     *  Tesla have opened up a subset of their superchargers for use by non-Tesla car as part of a [trial](https://www.autoexpress.co.uk/tesla/358026/15-tesla-supercharger-sites-open-non-tesla-vehicles-uk).
