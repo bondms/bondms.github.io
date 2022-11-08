@@ -94,8 +94,8 @@ These are all non-subscription prices. Subscription services may allow cheaper p
     * Usage: Contactless, [Octopus Electric Universe](https://electroverse.octopus.energy/), [Plugsurfing](https://plugsurfing.com/).
     * Registration: Not required.
     * Pricing:
-        * £1/kWh (Contactless).
-        * 80 p/kWh ([Octopus Electric Universe](https://electroverse.octopus.energy/)).
+        * 79 p/kWh (Contactless).
+        * 79 p/kWh ([Octopus Electric Universe](https://electroverse.octopus.energy/)).
         * TBC p/kWh ([Plugsurfing](https://plugsurfing.com/), likely more expensive).
 * [Pod Point](https://pod-point.com/):
     * Usage: App or web.
