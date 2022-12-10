@@ -90,6 +90,16 @@ These are all non-subscription prices. Subscription services may allow cheaper p
         * 66 p/kWh ([Octopus Electric Universe](https://electroverse.octopus.energy/) including 5% discount).
         * 77 p/kWh ([Plugsurfing](https://plugsurfing.com/)).
         * 30 p/kWh ([Plugsurfing](https://plugsurfing.com/) with Polestar/Volvo offer from 1 July 2021 for 18 months).
+* [mer](https://uk.mer.eco/):
+    * Usage: Web, app, charge card, [Octopus Electric Universe](https://electroverse.octopus.energy/), contactless (rolling out).
+    * Registration: Not required.
+    * Pricing:
+        * Fast (AC) chargers: 53 p/kWh Octopus Electric Universe.
+        * Fast (AC) chargers: 55 p/kWh registered users.
+        * Fast (AC) chargers: 56 p/kWh guests.
+        * Rapid (DC) chargers: 68 p/kWh for Octopus Electric Universe.
+        * Rapid (DC) chargers: 69 p/kWh for registered users.
+        * Rapid (DC) chargers: 72 p/kWh for guests.
 * [Osprey](https://ospreycharging.co.uk/) (previously engenie):
     * Usage: Contactless, [Octopus Electric Universe](https://electroverse.octopus.energy/), [Plugsurfing](https://plugsurfing.com/).
     * Registration: Not required.
