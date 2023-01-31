@@ -89,7 +89,7 @@ These are all non-subscription prices. Subscription services may allow cheaper p
         * 69 p/kWh (contactless, web).
         * 66 p/kWh ([Octopus Electric Universe](https://electroverse.octopus.energy/) including 5% discount).
         * 77 p/kWh ([Plugsurfing](https://plugsurfing.com/)).
-        * 30 p/kWh ([Plugsurfing](https://plugsurfing.com/) with Polestar/Volvo offer from 1 July 2021 for 18 months).
+        * 0.40 €/kWh ([Plugsurfing](https://plugsurfing.com/) with Polestar/Volvo offer).
 * [mer](https://uk.mer.eco/):
     * Usage: Web, app, charge card, [Octopus Electric Universe](https://electroverse.octopus.energy/), contactless (rolling out).
     * Registration: Not required.
