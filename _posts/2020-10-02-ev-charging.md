@@ -94,13 +94,13 @@ These are all non-subscription prices. Subscription services may allow cheaper p
 * [mer](https://uk.mer.eco/):
     * Usage: Web, app, charge card, [Octopus Electric Universe](https://electroverse.octopus.energy/), contactless (rolling out).
     * Registration: Not required.
-    * Pricing:
-        * Fast (AC) chargers: 53 p/kWh Octopus Electric Universe.
+    * Pricing (as of 11 May 2023):
+        * Fast (AC) chargers: 52 p/kWh Octopus Electric Universe.
         * Fast (AC) chargers: 55 p/kWh registered users.
         * Fast (AC) chargers: 56 p/kWh guests.
-        * Rapid (DC) chargers: 68 p/kWh for Octopus Electric Universe.
-        * Rapid (DC) chargers: 69 p/kWh for registered users.
-        * Rapid (DC) chargers: 72 p/kWh for guests.
+        * Rapid (DC) chargers: 72 p/kWh for Octopus Electric Universe.
+        * Rapid (DC) chargers: 76 p/kWh for registered users.
+        * Rapid (DC) chargers: 78 p/kWh for guests.
 * [Osprey](https://ospreycharging.co.uk/) (previously engenie):
     * Usage: Contactless, [Octopus Electric Universe](https://electroverse.octopus.energy/), [Plugsurfing](https://plugsurfing.com/).
     * Registration: Not required.
