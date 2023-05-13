@@ -86,10 +86,9 @@ These are all non-subscription prices. Subscription services may allow cheaper p
 * [Ionity](https://ionity.eu/):
     * Usage: Contactless, web, [Octopus Electric Universe](https://electroverse.octopus.energy/), [Plugsurfing](https://plugsurfing.com/).
     * Registration: Not required.
-    * Pricing:
-        * 69 p/kWh (contactless, web).
-        * 66 p/kWh ([Octopus Electric Universe](https://electroverse.octopus.energy/) including 5% discount).
-        * 77 p/kWh ([Plugsurfing](https://plugsurfing.com/)).
+    * Pricing (as of 13 May 2023):
+        * 74 p/kWh (contactless, web).
+        * 63 p/kWh ([Octopus Electric Universe](https://electroverse.octopus.energy/) including 5% discount for Electroverse drivers and 5% discount for Octopus Go customers).
         * 0.40 €/kWh ([Plugsurfing](https://plugsurfing.com/) with Polestar/Volvo offer).
 * [mer](https://uk.mer.eco/):
     * Usage: Web, app, charge card, [Octopus Electric Universe](https://electroverse.octopus.energy/), contactless (rolling out).
