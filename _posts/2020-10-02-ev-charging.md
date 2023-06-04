@@ -74,11 +74,9 @@ These are all non-subscription prices. Subscription services may allow cheaper p
 * [Gridserve](https://www.gridserve.com/ev-power-overview/):
     * Usage: Contactless.
     * Registration: Not required.
-    * Pricing:
-        * 39 p/kWh for stand-alone AC.
-        * 45 p/kWh for Electric Forecourt.
-        * 48 p/kWh for medium power DC.
-        * 50 p/kWh for highpower DC.
+    * Pricing (as of 1st June 2023):
+        * 49 p/kWh for AC.
+        * 69 p/kWh for DC.
 * [Instavolt](https://instavolt.co.uk/):
     * Usage: Contactless.
     * Registration: Not required.
