@@ -24,18 +24,14 @@ These are all non-subscription prices. Subscription services may allow cheaper p
 * [BP Pulse](https://www.bppulse.co.uk/charging-on-the-go) (previously BP Chargemaster / Polar):
     * Usage: Contactless, app or RFID.
     * Registration: Not required for contactless.
-    * Pricing (as of 3 April 2023):
+    * Pricing (as of 10 July 2023):
         * All charges on basic access are subject to a minimum spend of £1.20.
         * Some chargers also incur a cost per kWh, typically:
-            * With a subscription (£7.85 per month):
-                * 44 p/kWh for 7 kW AC.
-                * 63 p/kWh for 43 kW AC or 50 kW DC.
-                * 63 p/kWh for 150 kW+ DC.
-            * As a registered user:
+            * Registered:
                 * 59 p/kWh for 7 kW AC.
                 * 77 p/kWh for 43 kW AC or 50 kW DC.
                 * 77 p/kWh for 150 kW+ DC.
-            * As a guest:
+            * Guest:
                 * 59 p/kWh for 7 kW AC.
                 * 79 p/kWh for 43 kW AC or 50 kW DC.
                 * 79 p/kWh for 150 kW+ DC.
@@ -44,86 +40,74 @@ These are all non-subscription prices. Subscription services may allow cheaper p
     * Usage: App or RFID.
     * Registration: Required.
     * Pricing: Variable. Some free for an initial period.
-    * Notes:
-        * £10 charged and added to account on first use of non-free charger.
+    * Note(s):
+        * £10 charged and added to account on first use of non-free charger. Another £10 is charged and added to account each time balance drops below £5.
         * First RFID is provided free of charge on request.
         * Phone's NFC can be used.
-* [e.on](https://map.eondrive.co.uk/):
-    * Usage: Contactless, app, web or RFID.
-    * Registration: Not required.
-    * Pricing: Variable.
-* [Ecotricity/Electric Highway](https://www.ecotricity.co.uk/):
-    * Usage: App.
-    * Registration: Not required; guest access available with the app.
-    * Pricing: 30 p/kWh.
-    * Notes:
-        * Maximum 45 minutes charge per session.
 * [Fastned](https://fastnedcharging.com/en/):
     * Usage: App, chargecard ([Octopus Electric Universe](https://electroverse.octopus.energy/), [Plugsurfing](https://plugsurfing.com/), and more), or Autocharge.
-    * Pricing:
-        * Pay-as-you-go: 54 p/kWh.
-        * Gold membership: 35 p/kWh.
-* [Franklin Energy RAPID LiFe EV](https://franklinenergy.co.uk/rapid-life-ev/):
-    * Usage: App or RFID ([Plugsurfing](https://plugsurfing.com/) / [Octopus Electric Universe](https://electroverse.octopus.energy/)).
-    * Registration: Required.
-* [GeniePoint](https://www.geniepoint.co.uk/):
-    * Usage: App, web, RFID, [Octopus Electric Universe](https://electroverse.octopus.energy/).
-    * Registration: Required for RFID. Guest access available with app and web.
-    * Pricing:
-        * 57 p/kWh.
+    * Pricing (as of 10 July 2023):
+        * Pay-as-you-go: 69 p/kWh.
+        * Octopus: 66 p/kWh.
 * [Gridserve](https://www.gridserve.com/ev-power-overview/):
     * Usage: Contactless.
     * Registration: Not required.
-    * Pricing (as of 1st June 2023):
+    * Pricing (as of 10 July 2023):
         * 49 p/kWh for AC.
         * 69 p/kWh for DC.
+    * Note(s):
+        * £1 pre-authorisation fee.
 * [Instavolt](https://instavolt.co.uk/):
     * Usage: Contactless.
     * Registration: Not required.
-    * Pricing: 75 p/kWh.
+    * Pricing (as of 10 July 2023): 75 p/kWh.
 * [Ionity](https://ionity.eu/):
     * Usage: Contactless, web, [Octopus Electric Universe](https://electroverse.octopus.energy/), [Plugsurfing](https://plugsurfing.com/).
     * Registration: Not required.
-    * Pricing (as of 13 May 2023):
-        * 74 p/kWh (contactless, web).
-        * 63 p/kWh ([Octopus Electric Universe](https://electroverse.octopus.energy/) including 5% discount for Electroverse drivers and 5% discount for Octopus Go customers).
-        * 0.40 €/kWh ([Plugsurfing](https://plugsurfing.com/) with Polestar/Volvo offer).
+    * Pricing (as of 10 July 2023):
+        * Contactless/web: 74 p/kWh.
+        * Octopus discount: 63 p/kWh.
+        * Plugsurfing (Polestar/Volvo offer): 0.30 p/kWh.
 * [mer](https://uk.mer.eco/):
     * Usage: Web, app, charge card, [Octopus Electric Universe](https://electroverse.octopus.energy/), contactless (rolling out).
     * Registration: Not required.
-    * Pricing (as of 11 May 2023):
-        * Fast (AC) chargers: 52 p/kWh Octopus Electric Universe.
-        * Fast (AC) chargers: 55 p/kWh registered users.
-        * Fast (AC) chargers: 56 p/kWh guests.
-        * Rapid (DC) chargers: 72 p/kWh for Octopus Electric Universe.
-        * Rapid (DC) chargers: 76 p/kWh for registered users.
-        * Rapid (DC) chargers: 78 p/kWh for guests.
+    * Pricing (as of 10 July 2023):
+        * Fast (AC) chargers:
+            * Octopus: 52 p/kWh.
+            * Registered: 55 p/kWh.
+            * Guest: 56 p/kWh.
+        * Rapid (DC) chargers:
+            * Octopus: 72 p/kWh.
+            * Registered: 76 p/kWh.
+            * Guest: 78 p/kWh.
 * [Osprey](https://ospreycharging.co.uk/) (previously engenie):
     * Usage: Contactless, [Octopus Electric Universe](https://electroverse.octopus.energy/), [Plugsurfing](https://plugsurfing.com/).
     * Registration: Not required.
-    * Pricing:
-        * 79 p/kWh (Contactless).
-        * 79 p/kWh ([Octopus Electric Universe](https://electroverse.octopus.energy/)).
-        * TBC p/kWh ([Plugsurfing](https://plugsurfing.com/), likely more expensive).
+    * Pricing (as of 10 July 2023):
+        * Contactless: 79 p/kWh.
+        * Octopus: 60 p/kWh.
 * [Pod Point](https://pod-point.com/):
     * Usage: App or web.
     * Registration: Required.
     * Pricing: Variable. Some free.
-    * Notes:
+    * Note(s):
         * 15 minutes free during which time use app/web to confirm continuation.
 * [Shell Recharge](https://www.shell.co.uk/motorist/ev-charging.html) (part of NewMotion):
     * Usage: Contactless, app, RFID, [Octopus Electric Universe](https://electroverse.octopus.energy/), [Plugsurfing](https://plugsurfing.com/).
     * Registration: Required only for RFID.
-    * Pricing:
-        * 39 p/kWh (AC chargers: [Octopus Electric Universe](https://electroverse.octopus.energy/)).
-        * 60 p/kWh (DC chargers: [Octopus Electric Universe](https://electroverse.octopus.energy/)).
-        * 79 p/kWh (rapid chargers: Contactless, app, RFID).
-        * 85 p/kWh (ultra-rapid chargers: Contactless, app, RFID).
-        * TBC p/Kwh ([Plugsurfing](https://plugsurfing.com/), likely more expensive).
+    * Pricing (as of 10 July 2023):
+        * Contactless:
+            * Fast (7-22 kW): 55 p/kWh.
+            * Rapid (50 kW): 79 p/kWh.
+            * Ulta-rapid (150+ kW): 85 p/kWh.
+        * Octopus:
+            * Fast (7-22 kW): 52 p/kWh.
+            * Rapid (50 kW): 75 p/kWh.
+            * Ulta-rapid (150+ kW): 81 p/kWh.
 * [Tesla Supercharger](https://www.tesla.com/en_gb/supercharger)
-    *  Tesla have opened up a subset of their superchargers for use by non-Tesla car as part of a [trial](https://www.autoexpress.co.uk/tesla/358026/15-tesla-supercharger-sites-open-non-tesla-vehicles-uk).
+    * Tesla have opened up a subset of their superchargers for use by non-Tesla cars.
     * Usage: App.
-    * Pricing: Variable (check app for specific location). Typically around 60 p/kWh without a subscription and lower with a subscription.
+    * Pricing: Rates vary per site and are higher than for Tesla vehicles. Idle fees may also be applied.
 
 ## Jargon
 
