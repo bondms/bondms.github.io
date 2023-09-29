@@ -48,7 +48,7 @@ These are all non-subscription prices. Subscription services may allow cheaper p
     * Usage: App, chargecard ([Octopus Electric Universe](https://electroverse.octopus.energy/), [Plugsurfing](https://plugsurfing.com/), and more), or Autocharge.
     * Pricing (as of 10 July 2023):
         * Pay-as-you-go: 69 p/kWh.
-        * Octopus: 66 p/kWh.
+        * Octopus discounted: 66 p/kWh.
 * [Gridserve](https://www.gridserve.com/ev-power-overview/):
     * Usage: Contactless.
     * Registration: Not required.
@@ -58,26 +58,28 @@ These are all non-subscription prices. Subscription services may allow cheaper p
     * Note(s):
         * £1 pre-authorisation fee.
 * [Instavolt](https://instavolt.co.uk/):
-    * Usage: Contactless.
+    * Usage: Contactless, [Octopus Electric Universe](https://electroverse.octopus.energy/).
     * Registration: Not required.
-    * Pricing (as of 10 July 2023): 75 p/kWh.
+    * Pricing (as of 29 September 2023):
+        * Contactless: 75 p/kWh.
+        * Octopus discounted: 71 p/kWh.
 * [Ionity](https://ionity.eu/):
     * Usage: Contactless, web, [Octopus Electric Universe](https://electroverse.octopus.energy/), [Plugsurfing](https://plugsurfing.com/).
     * Registration: Not required.
     * Pricing (as of 10 July 2023):
         * Contactless/web: 74 p/kWh.
-        * Octopus discount: 63 p/kWh.
+        * Octopus discounted: 63 p/kWh.
         * Plugsurfing (Polestar/Volvo offer): 0.30 p/kWh.
 * [mer](https://uk.mer.eco/):
     * Usage: Web, app, charge card, [Octopus Electric Universe](https://electroverse.octopus.energy/), contactless (rolling out).
     * Registration: Not required.
     * Pricing (as of 10 July 2023):
         * Fast (AC) chargers:
-            * Octopus: 52 p/kWh.
+            * Octopus discounted: 52 p/kWh.
             * Registered: 55 p/kWh.
             * Guest: 56 p/kWh.
         * Rapid (DC) chargers:
-            * Octopus: 72 p/kWh.
+            * Octopus discounted: 72 p/kWh.
             * Registered: 76 p/kWh.
             * Guest: 78 p/kWh.
 * [Osprey](https://ospreycharging.co.uk/) (previously engenie):
@@ -85,7 +87,7 @@ These are all non-subscription prices. Subscription services may allow cheaper p
     * Registration: Not required.
     * Pricing (as of 10 July 2023):
         * Contactless: 79 p/kWh.
-        * Octopus: 60 p/kWh.
+        * Octopus discounted: 60 p/kWh.
 * [Pod Point](https://pod-point.com/):
     * Usage: App or web.
     * Registration: Required.
@@ -100,7 +102,7 @@ These are all non-subscription prices. Subscription services may allow cheaper p
             * Fast (7-22 kW): 55 p/kWh.
             * Rapid (50 kW): 79 p/kWh.
             * Ulta-rapid (150+ kW): 85 p/kWh.
-        * Octopus:
+        * Octopus discounted:
             * Fast (7-22 kW): 52 p/kWh.
             * Rapid (50 kW): 75 p/kWh.
             * Ulta-rapid (150+ kW): 81 p/kWh.
