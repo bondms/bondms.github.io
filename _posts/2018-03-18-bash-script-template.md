@@ -31,7 +31,7 @@ something || something_else
 
 In this example, the ```something``` function assumes that ```set -e``` will cause the script to terminate if ```do_something``` fails, so it returns 0 to indicate success if executation passes that point. However, because ```something``` is called as part of a list, the behaviour is not as intended, ```something``` will still return success and ```something_else``` will not be called.
 
-A workaround, albeit one that is tedious and easy to forget, is to ensure that the result of every command is tested, e.g. ```do_something || exit $?```.
+A workaround, albeit one that is tedious and easy to forget, is to ensure that the result of every command is tested, e.g. ```do_something || exit 1```.
 
 ### Assuming the working directory is the same directory as the script's location
 
@@ -48,7 +48,7 @@ Avoid referring to paths relative to the CWD by instead prefixing them with the 
 
 HERE="$(readlink -f "$(dirname "$0")")"
 
-some_command -- "${HERE}/some_file_located_alongside_the_script" || exit $?
+some_command -- "${HERE}/some_file_located_alongside_the_script" || exit 1
 ```
 
 #### Change the CWD for the duration of the script
@@ -59,7 +59,7 @@ Sometimes avoiding the use of relative paths is difficult, for example you might
 #!/bin/bash
 
 HERE="$(readlink -f "$(dirname "$0")")"
-pushd -- "${HERE}" || exit $?
+pushd -- "${HERE}" || exit 1
 
 ...
 ```
@@ -125,14 +125,14 @@ function abort()
 
 HERE="$(readlink -f "$(dirname "$0")")"
 [[ -d "${HERE}" ]] || abort "Failed to locate script."
-pushd -- "${HERE}" || exit $?
+pushd -- "${HERE}" || exit 1
 
 # Overridable settings.
 MUTEX_PATH="${MUTEX_PATH:-/var/lock/scripting_$(basename "$0" .sh)}"
 
 (
   # Release sudo on exit.
-  trap "sudo --remove-timestamp" EXIT || exit $?
+  trap "sudo --remove-timestamp" EXIT || exit 1
 
   # Use a flock as a mutex to ensure that one instance of the script
   # can execute at any one time.
