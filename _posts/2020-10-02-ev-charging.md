@@ -19,7 +19,7 @@ Networks typically have their own web or app map to locate their chargers, but t
 
 ### Charging networks:
 
-These are all non-subscription prices. Subscription services may allow cheaper per-unit pricing.
+Unless otherwise stated, these are non-subscription prices. Subscription services may allow cheaper per-unit pricing.
 
 * [BP Pulse](https://www.bppulse.co.uk/charging-on-the-go) (previously BP Chargemaster / Polar):
     * Usage: Contactless, app or RFID.
