@@ -52,7 +52,7 @@ Unless otherwise stated, these are non-subscription prices. Subscription service
 * [Gridserve](https://www.gridserve.com/ev-power-overview/):
     * Usage: Contactless.
     * Registration: Not required.
-    * Pricing (as of 30 November 2023):
+    * Pricing (as of 25 December 2023):
         * 49 p/kWh for AC.
         * 79 p/kWh for DC.
     * Note(s):
@@ -60,13 +60,13 @@ Unless otherwise stated, these are non-subscription prices. Subscription service
 * [Instavolt](https://instavolt.co.uk/):
     * Usage: Contactless, [Octopus Electric Universe](https://electroverse.octopus.energy/).
     * Registration: Not required.
-    * Pricing (as of 29 September 2023):
-        * Contactless: 75 p/kWh.
-        * Octopus discounted: 71 p/kWh.
+    * Pricing (as of 25 December 2023):
+        * Contactless: 85 p/kWh.
+        * Octopus discounted: 81 p/kWh.
 * [Ionity](https://ionity.eu/):
     * Usage: Contactless, web, [Octopus Electric Universe](https://electroverse.octopus.energy/), [Plugsurfing](https://plugsurfing.com/).
     * Registration: Not required.
-    * Pricing (as of 10 July 2023):
+    * Pricing (as of 25 December 2023):
         * Contactless/web: 74 p/kWh.
         * Octopus discounted: 63 p/kWh.
         * Plugsurfing (Polestar/Volvo offer): 30 p/kWh.
@@ -85,9 +85,9 @@ Unless otherwise stated, these are non-subscription prices. Subscription service
 * [Osprey](https://ospreycharging.co.uk/) (previously engenie):
     * Usage: Contactless, [Octopus Electric Universe](https://electroverse.octopus.energy/), [Plugsurfing](https://plugsurfing.com/).
     * Registration: Not required.
-    * Pricing (as of 10 July 2023):
+    * Pricing (as of 25 December 2023):
         * Contactless: 79 p/kWh.
-        * Octopus discounted: 60 p/kWh.
+        * Octopus discounted: 63 p/kWh 7pm-11pm; 75 p/kWh at other times.
 * [Pod Point](https://pod-point.com/):
     * Usage: App or web.
     * Registration: Required.
