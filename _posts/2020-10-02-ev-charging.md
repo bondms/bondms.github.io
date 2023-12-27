@@ -46,7 +46,7 @@ Unless otherwise stated, these are non-subscription prices. Subscription service
         * Phone's NFC can be used.
 * [Fastned](https://fastnedcharging.com/en/):
     * Usage: App, chargecard ([Octopus Electric Universe](https://electroverse.octopus.energy/), [Plugsurfing](https://plugsurfing.com/), and more), or Autocharge.
-    * Pricing (as of 10 July 2023):
+    * Pricing (as of 27 December 2023):
         * Pay-as-you-go: 69 p/kWh.
         * Octopus discounted: 66 p/kWh.
 * [Gridserve](https://www.gridserve.com/ev-power-overview/):
