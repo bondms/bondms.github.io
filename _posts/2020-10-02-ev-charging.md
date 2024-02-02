@@ -69,7 +69,6 @@ Unless otherwise stated, these are non-subscription prices. Subscription service
     * Pricing (as of 25 December 2023):
         * Contactless/web: 74 p/kWh.
         * Octopus discounted: 63 p/kWh.
-        * Plugsurfing (Polestar/Volvo offer): 30 p/kWh.
 * [mer](https://uk.mer.eco/):
     * Usage: Web, app, charge card, [Octopus Electric Universe](https://electroverse.octopus.energy/), contactless (rolling out).
     * Registration: Not required.
