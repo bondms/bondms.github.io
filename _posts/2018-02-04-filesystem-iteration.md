@@ -149,6 +149,12 @@ In order to avoid these pitfalls and others, take care to consider the following
 
 ## Examples
 
+Simple example. Print and delete content of a folder without deleting the folder itself. No need to pass through to a shell or batch items:
+
+```bash
+find directory_to_empty/ -mindepth 1 -print -delete
+```
+
 Processing items in batches. ```chmod``` accepts accepts one or more non-option arguments so doesn't need to be called once for each item processed:
 
 ```bash
