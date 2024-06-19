@@ -84,9 +84,9 @@ Unless otherwise stated, these are non-subscription prices. Subscription service
 * [Osprey](https://ospreycharging.co.uk/) (previously engenie):
     * Usage: Contactless, [Octopus Electric Universe](https://electroverse.octopus.energy/), [Plugsurfing](https://plugsurfing.com/).
     * Registration: Not required.
-    * Pricing (as of 25 December 2023):
+    * Pricing (as of 19 June 2024):
         * Contactless: 79 p/kWh.
-        * Octopus discounted: 63 p/kWh 7pm-11pm; 75 p/kWh at other times.
+        * Octopus discounted: 58 p/kWh 7pm-11pm; 73 p/kWh at other times.
 * [Pod Point](https://pod-point.com/):
     * Usage: App or web.
     * Registration: Required.
