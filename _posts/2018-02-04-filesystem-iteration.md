@@ -30,11 +30,6 @@ There is a corresponding ```--null``` or ```-0``` argument to ```xargs``` and ``
 
 Use of these arguments on their own is not always sufficient. The following script, for example, fails to correctly process paths containing single-quote (') characters.
 
-```bash
-find -print0 |
-  xargs --null -I {} bash -c "echo '{}'"
-```
-
 ```console
 $ touch "File name with single quote '.txt"
 $ ls -la
@@ -73,11 +68,6 @@ If this case, the error reported by the ```ls``` command was not propagated and 
 
 By default ```xargs``` runs once even if it receives no input which can cause failures. For example, the following script will work if run from a folder containing files but will fail if there are no files:
 
-```bash
-find -type f -print0 |
-  xargs --null file
-```
-
 ```console
 $ ls -la
 total 0
@@ -95,11 +85,6 @@ The ```file``` command expects at least one argument and returns an error if cal
 ### Failure to handle the maximum allowed command-line length
 
  ```xargs``` automatically splits long command-lines into multiple calls. The ```-execdir``` option of ```find``` has similar behaviour. A naive script that expects exactly one call may fail to handle this, for example:
-
-```bash
-find -type f -print0 |
-  xargs --null wc
-```
 
 ```console
 $ for (( i=100000 ; i=i-1 ; i )); do echo Test data > $i.txt; done
