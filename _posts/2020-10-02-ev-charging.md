@@ -161,6 +161,10 @@ Octopus offer a range of good tariffs with some that are especially good for EV 
 
 Octopus referral code: [share.octopus.energy/topaz-sheep-824](https://share.octopus.energy/topaz-sheep-824)
 
+Octopus can also arrange fitting of an EV charger at your home.
+
+Octopus EV charger referral code: [tech.referrals.octopus.energy/umpVB0Z5](https://tech.referrals.octopus.energy/umpVB0Z5)
+
 ### Equipment
 
 Smart Home Charge referral code: `SHC#Fresh-Amazing-Performing`. Details are [here](https://www.smarthomecharge.co.uk/ejn-referral-scheme/).
