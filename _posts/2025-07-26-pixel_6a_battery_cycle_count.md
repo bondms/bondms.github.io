@@ -47,6 +47,12 @@ This will print an integer indicating the current battery cycle count.
 
 # Notes
 
+If you have problems with the ADB command above check whether the device is correctly detected. The
+```bash
+adb devices -l
+```
+command should list the connected device. If it doesn't show make sure the USB cable supports data (not just charging) and that the phone authenticates the workstation connection.
+
 The battery cycle count is an indication of charge cycles equivant to complete 0 to 100% charges, so the count will increment by 1 only after two 50-100% charges for example.
 
 Other battery extended information is available via ABD. Try these commands for exmaple:
