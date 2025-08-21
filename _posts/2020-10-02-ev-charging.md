@@ -46,9 +46,9 @@ Unless otherwise stated, these are non-subscription prices. Subscription service
         * Phone's NFC can be used.
 * [Fastned](https://fastnedcharging.com/en/):
     * Usage: App, chargecard ([Octopus Electric Universe](https://electroverse.octopus.energy/), [Plugsurfing](https://plugsurfing.com/), and more), or Autocharge.
-    * Pricing (as of 27 December 2023):
-        * Pay-as-you-go: 69 p/kWh.
-        * Octopus discounted: 66 p/kWh.
+    * Pricing (as of 21 August 2025):
+        * Pay-as-you-go: 74 p/kWh.
+        * Intelligent Octopus Go discounted: 68 p/kWh.
 * [Gridserve](https://www.gridserve.com/ev-power-overview/):
     * Usage: Contactless.
     * Registration: Not required.
@@ -86,7 +86,7 @@ Unless otherwise stated, these are non-subscription prices. Subscription service
     * Registration: Not required.
     * Pricing (as of 18 August 2025):
         * Contactless: 82 p/kWh.
-        * Intelligent Octopus Go discounted: 61 p/kWh 7pm-11pm; 76 p/kWh at other times.
+        * Intelligent Octopus Go discounted: 61 p/kWh 7pm-11pm; 75 p/kWh at other times.
 * [Pod Point](https://pod-point.com/):
     * Usage: App or web.
     * Registration: Required.
