@@ -52,9 +52,9 @@ Unless otherwise stated, these are non-subscription prices. Subscription service
 * [Gridserve](https://www.gridserve.com/ev-power-overview/):
     * Usage: Contactless.
     * Registration: Not required.
-    * Pricing (as of 25 December 2023):
+    * Pricing (as of 29 August 2025):
         * 49 p/kWh for AC.
-        * 79 p/kWh for DC.
+        * 79-89 p/kWh for DC (varies depending on location).
     * Note(s):
         * £1 pre-authorisation fee.
 * [Instavolt](https://instavolt.co.uk/):
