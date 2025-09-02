@@ -165,10 +165,6 @@ Octopus can also arrange fitting of an EV charger at your home.
 
 Octopus EV charger referral code: [tech.referrals.octopus.energy/umpVB0Z5](https://tech.referrals.octopus.energy/umpVB0Z5)
 
-### Equipment
-
-Smart Home Charge referral code: `SHC#Fresh-Amazing-Performing`. Details are [here](https://www.smarthomecharge.co.uk/ejn-referral-scheme/).
-
 ### Charging speeds
 
 The rate of charging at rapid DC public charging station is dependent on many factors and therefore often unpredictable. Temperature, state of charge, whether other users are using nearby charger, etc. can all affect public charging rates.
