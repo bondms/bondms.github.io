@@ -52,6 +52,14 @@ dd if=/dev/zero of=/dev/sda1
 blkdiscard /dev/sda1
 ```
 
+### Filesystem
+
+The `fstrim` command is used to discard blocks from a provisioned drive formatted with a filesystem. Use that instead to discard erased data but to keep active files, e.g.
+
+```bash
+fstrim -v /media/user/volume/
+```
+
 ## Secure wiping
 
 If the disk is being erased because it contains confidential or personal data which must be removed then a more through wipe may be desired.
