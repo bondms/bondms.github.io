@@ -4,6 +4,51 @@ title: Linux disk management
 
 # Linux disk management
 
+## Partitioning and formatting
+
+For an encrypted partition, see "Full-disk encryption" below. For non-encrypted paritions see these examples:
+
+Example partition table:
+
+Partition 1 is to be encypted, the remaining three are to bo non-encrypted as per these examples.
+
+```
+Disk /dev/sdb: 931.51 GiB, 1000204886016 bytes, 1953525168 sectors
+Disk model: PSSD T9
+Units: sectors of 1 * 512 = 512 bytes
+Sector size (logical/physical): 512 bytes / 512 bytes
+I/O size (minimum/optimal): 512 bytes / 2097152 bytes
+Disklabel type: dos
+Disk identifier: 0x534ecb55
+
+Device     Boot      Start        End   Sectors   Size Id Type
+/dev/sdb1             4096  650121215 650117120   310G 83 Linux
+/dev/sdb2        650121216 1300238335 650117120   310G 83 Linux
+/dev/sdb3       1300238336 1308626943   8388608     4G  b W95 FAT32
+/dev/sdb4       1308626944 1953525167 644898224 307.5G  7 HPFS/NTFS/exFAT
+```
+
+### Linux
+
+Example: Create an ext4 formatted partition with volume label "Linux":
+
+1. Use `fdisk` to create a partition of type 0x83 (Linux).
+1. `sudo mkfs.ext4 -L Linux /dev/sdb2`
+
+### Cross-platform compatibile
+
+vFAT is highly cross-platform compatible but is limited to a maximum size of 4 GiB. The volume lavel is limited to 11 upper-case characters.
+
+Example: Create a VFAT formatted partition with volume label "DOS".
+
+1. Use `fdisk` to create a partition of type 0x0B (W95 FAT32).
+1. `sudo mkfs.vfat -n DOS /dev/sdb3`
+
+If a partition size greater than 4 GiB is required then exFAT can be used. It is still cross-platform compatible, but some older or simpler devices may not support it, e.g.
+
+1. Use `fdisk` to create a parition of type 0x07 (HPFS/NTFS/exFAT).
+1. `sudo mkfs.exfat -L Windows /dev/sdb4`
+
 ## Erasing data
 
 Erasing the data from a disk before performing a fresh OS installation can be convenient. It ensures, for example, that no remnants of data (such as a bootloader) will affect the new installation. It will be truely "fresh".
