@@ -60,6 +60,7 @@ Other battery extended information is available via ABD. Try these commands for 
 ```bash
 adb shell dumpsys battery
 adb shell cat /sys/class/power_supply/battery/cycle_counts
+adb kill-server
 ```
 
 # References
