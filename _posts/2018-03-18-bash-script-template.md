@@ -46,7 +46,7 @@ Avoid referring to paths relative to the CWD by instead prefixing them with the 
 ```
 #!/bin/bash
 
-HERE="$(readlink -e "$(dirname "${BASH_SOURCE[0]}")")"
+HERE="$(readlink --canonicalize-existing "$(dirname "${BASH_SOURCE[0]}")")"
 
 some_command -- "${HERE}/some_file_located_alongside_the_script" || exit 1
 ```
@@ -58,7 +58,7 @@ Sometimes avoiding the use of relative paths is difficult, for example you might
 ```
 #!/bin/bash
 
-HERE="$(readlink -e "$(dirname "${BASH_SOURCE[0]}")")"
+HERE="$(readlink --canonicalize-existing "$(dirname "${BASH_SOURCE[0]}")")"
 pushd -- "${HERE}" || exit 1
 
 ...
@@ -123,7 +123,7 @@ function abort()
     exit 1
 }
 
-HERE="$(readlink -e "$(dirname "${BASH_SOURCE[0]}")")"
+HERE="$(readlink --canonicalize-existing "$(dirname "${BASH_SOURCE[0]}")")"
 [[ -d "${HERE}" ]] || abort "Failed to locate script."
 pushd -- "${HERE}" || exit 1
 
