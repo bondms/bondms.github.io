@@ -33,6 +33,10 @@ In this example, the ```something``` function assumes that ```set -e``` will cau
 
 A workaround, albeit one that is tedious and easy to forget, is to ensure that the result of every command is tested, e.g. ```do_something || exit 1```.
 
+### Mistyping a variable name
+
+Use of `set -u` causes use of an undeclared variable to be an error. Using this therefore helps to  prevent bugs due to misspelt variables names from going unnoticed.
+
 ### Assuming the working directory is the same directory as the script's location
 
 A script may be launched from an environment where the current working directory (CWD) is not the same as the directory containing the script. In this case, relative paths (i.e. those relative to the CWD) will be incorrect.
