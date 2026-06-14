@@ -110,6 +110,12 @@ Unless otherwise stated, these are non-subscription prices. Subscription service
     * Tesla have opened up a subset of their superchargers for use by non-Tesla cars.
     * Usage: App, [web](https://www.tesla.com/en_gb/findus?v=2&bounds=52.840992757174725%2C2.1733402546724445%2C49.20868795280077%2C-7.989013260952535&zoom=8&filters=party%2Cnacs).
     * Pricing: Rates vary per site and are higher than for Tesla vehicles. Idle fees may also be applied.
+* [Wenea](https://wenea.com/uk/)
+    * Usage: Contactless, app.
+    * Pricing (as of 14 June 2026):
+        * Slow (a.c. 7.4-22 kW): 49 p/kWh.
+        * Fast (d.c. 50-150 kW): 69 p/kWh.
+        * Ultra fast (d.c. 150-400kW): 79 p/kWh.
 
 ## Jargon
 
