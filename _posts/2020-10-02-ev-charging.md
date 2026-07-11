@@ -117,8 +117,11 @@ Unless otherwise stated, these are non-subscription prices. Subscription service
             * Slow (a.c. 7.4-22 kW): 55 p/kWh.
             * Fast (d.c. 50-150 kW): 75 p/kWh.
             * Ultra fast (d.c. 150-400kW): 85 p/kWh.
-        * Octopus discounted (even with discount, price is showing as higher):
-            * Fast (d.c. 50-150 kW): 89 p/kWh.
+        * Octopus discounted (even with discount, some prices show as equal or higher):
+            * Slow (a.c. 11 kW): 53 p/kWh.
+            * Fast (d.c. 50 kW): 75 p/kWh.
+            * Fast (d.c. 89 kW): 89 p/kWh.
+            * Fast (d.c. 100 kW): 89 p/kWh.
 
 ## Jargon
 
