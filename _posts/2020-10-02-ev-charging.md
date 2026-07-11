@@ -45,7 +45,7 @@ Unless otherwise stated, these are non-subscription prices. Subscription service
         * First RFID is provided free of charge on request.
         * Phone's NFC can be used.
 * [Fastned](https://fastnedcharging.com/en/):
-    * Usage: App, chargecard ([Octopus Electric Universe](https://electroverse.octopus.energy/), [Plugsurfing](https://plugsurfing.com/), and more), or Autocharge.
+    * Usage: App, chargecard ([Octopus Electroverse](https://electroverse.octopus.energy/), [Plugsurfing](https://plugsurfing.com/), and more), or Autocharge.
     * Pricing (as of 21 August 2025):
         * Pay-as-you-go: 74 p/kWh.
         * Intelligent Octopus Go discounted: 68 p/kWh.
@@ -58,19 +58,19 @@ Unless otherwise stated, these are non-subscription prices. Subscription service
     * Note(s):
         * £1 pre-authorisation fee.
 * [Instavolt](https://instavolt.co.uk/):
-    * Usage: Contactless, [Octopus Electric Universe](https://electroverse.octopus.energy/).
+    * Usage: Contactless, [Octopus Electroverse](https://electroverse.octopus.energy/).
     * Registration: Not required.
     * Pricing (as of 14 December 2025):
         * Contactless: 89 p/kWh (60 p/kWh 20:00-07:00 with InstaVolt app).
         * Octopus discounted: 82 p/kWh.
 * [Ionity](https://ionity.eu/):
-    * Usage: Contactless, web, [Octopus Electric Universe](https://electroverse.octopus.energy/), [Plugsurfing](https://plugsurfing.com/).
+    * Usage: Contactless, web, [Octopus Electroverse](https://electroverse.octopus.energy/), [Plugsurfing](https://plugsurfing.com/).
     * Registration: Not required.
     * Pricing (as of 25 December 2023):
         * Contactless/web: 74 p/kWh.
         * Octopus discounted: 63 p/kWh.
 * [mer](https://uk.mer.eco/):
-    * Usage: Web, app, charge card, [Octopus Electric Universe](https://electroverse.octopus.energy/), contactless (rolling out).
+    * Usage: Web, app, charge card, [Octopus Electroverse](https://electroverse.octopus.energy/), contactless (rolling out).
     * Registration: Not required.
     * Pricing (as of 10 July 2023):
         * Fast (AC) chargers:
@@ -82,7 +82,7 @@ Unless otherwise stated, these are non-subscription prices. Subscription service
             * Registered: 76 p/kWh.
             * Guest: 78 p/kWh.
 * [Osprey](https://ospreycharging.co.uk/) (previously engenie):
-    * Usage: Contactless, [Octopus Electric Universe](https://electroverse.octopus.energy/), [Plugsurfing](https://plugsurfing.com/).
+    * Usage: Contactless, [Octopus Electroverse](https://electroverse.octopus.energy/), [Plugsurfing](https://plugsurfing.com/).
     * Registration: Not required.
     * Pricing (as of 14 December 2025):
         * Contactless: 87 p/kWh.
@@ -95,7 +95,7 @@ Unless otherwise stated, these are non-subscription prices. Subscription service
     * Note(s):
         * 15 minutes free during which time use app/web to confirm continuation.
 * [Shell Recharge](https://www.shell.co.uk/motorist/ev-charging.html) (part of NewMotion):
-    * Usage: Contactless, app, RFID, [Octopus Electric Universe](https://electroverse.octopus.energy/), [Plugsurfing](https://plugsurfing.com/).
+    * Usage: Contactless, app, RFID, [Octopus Electroverse](https://electroverse.octopus.energy/), [Plugsurfing](https://plugsurfing.com/).
     * Registration: Required only for RFID.
     * Pricing (as of 10 July 2023):
         * Contactless:
@@ -112,10 +112,13 @@ Unless otherwise stated, these are non-subscription prices. Subscription service
     * Pricing: Rates vary per site and are higher than for Tesla vehicles. Idle fees may also be applied.
 * [Wenea](https://wenea.com/uk/)
     * Usage: Contactless, app.
-    * Pricing (as of 14 June 2026):
-        * Slow (a.c. 7.4-22 kW): 49 p/kWh.
-        * Fast (d.c. 50-150 kW): 69 p/kWh.
-        * Ultra fast (d.c. 150-400kW): 79 p/kWh.
+    * Pricing (as of 11 July 2026):
+        * Contactless / app:
+            * Slow (a.c. 7.4-22 kW): 55 p/kWh.
+            * Fast (d.c. 50-150 kW): 75 p/kWh.
+            * Ultra fast (d.c. 150-400kW): 85 p/kWh.
+        * Octopus discounted (even with discount, price is showing as higher):
+            * Fast (d.c. 50-150 kW): 89 p/kWh.
 
 ## Jargon
 
