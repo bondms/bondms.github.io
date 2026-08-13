@@ -132,6 +132,40 @@ In order to avoid these pitfalls and others, take care to consider the following
 * Consider whether to follow symlinks and whether to traverse across filesystems.
 * Consider whether it would be possible for a filename to be interpretted as a command option. Often commands accept ```--``` to specify that all following arguments are non-option arguments.
 
+## Per-file redirection
+
+The `{}` replace string of `xargs` only works for the `xargs` process. The shell won't know to replace it, so for example:
+```bash
+find -name "*.dat" -print0 | xargs --null -I {} process {} > {}.dump
+```
+won't create a .dump file for each processed .dat file, instead it will create a single file named `{}.dump`.
+
+There are various solutions to this, for example:
+
+```bash
+find -name "*.dat" -print0 | xargs --null -n1 sh -c 'some_command "$1" > "$1.dump"' _
+```
+
+```bash
+find -name "*.dat" -print0 | xargs --null -I {} sh -c 'some_command "$1" > "$1.dump"' _ {}
+```
+
+```bash
+find -name "*.dat" -exec sh -c 'some_command "$1" > "$1.dump"' _ {} \;
+```
+
+```bash
+find -name "*.dat" -print0 | while IFS= read -r -d '' f; do
+  some_command "$f" > "$f.dump"
+done
+```
+
+### Note(s):
+
+* If you want foo.dump rather than foo.dat.dump, use `"${1%.dat}.dump"`.
+* The `xargs` version parallelises for free: `add -P 8` (with `-n1`) to run eight at a time.
+`find -exec ... \;` is strictly serial.
+
 ## Examples
 
 Simple example. Print and delete content of a folder without deleting the folder itself. No need to pass through to a shell or batch items:
