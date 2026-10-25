@@ -83,6 +83,20 @@ For modern solid-state disks, there is a better way. Using `blkdiscard` offers s
 blkdiscard /dev/sda
 ```
 
+### Erasing USB/external drives
+
+Linux kernels typically do not enable trimming of external USB drives. Therefore, send a unmap command to the SSD controller to indicate that the drive is empty allowing it to instantly erase the content.
+
+```bash
+sudo umount /dev/sdb* # Unmount any partitions.
+lsblk --discard /dev/sdb # Check if unmap/trip is supported.
+
+# If DISC-GRAN (discard granularity) and DISC-MAX show zero values then the OS treats the drive as a standard block storage device that does not accept discard instructions and it's necessary to force-enable unmap mode.
+
+echo unmap | sudo tee /sys/block/sdb/device/scsi_disk/*/provisioning_mode # Force-enable unmap mode.
+sudo blkdiscard /dev/sdb # Trim.
+```
+
 ### Partitions
 
 Both of the above commands work just as well on a single partition as on a full disk, e.g.
