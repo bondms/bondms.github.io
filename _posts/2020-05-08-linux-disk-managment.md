@@ -59,17 +59,17 @@ Booting from a "Live" Linux distribution is helpful in this case. It allows the 
 
 A traditional magnetic disk can be erased from a terminal using commands such as
 ```bash
-cat /dev/zero > /dev/sda
+sudo cat /dev/zero > /dev/sda
 ```
 or
 ```bash
-dd if=/dev/zero of=/dev/sda
+sudo dd if=/dev/zero of=/dev/sda
 ```
 where /dev/sda is the device of the disk to be erased.
 
 Erasing an entire disk may take a long time. Often, it is sufficient to erase just the first few sectors. In this case the command can be cancelled with `ctrl-c` once it has progressed far enough or limited from the start, e.g.
 ```bash
-dd if=/dev/zero of=/dev/sda bs=4096 count=1024
+sudo dd if=/dev/zero of=/dev/sda bs=4096 count=1024
 ```
 
 ### Erasing SSDs
