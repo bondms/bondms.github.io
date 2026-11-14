@@ -80,7 +80,7 @@ For modern solid-state disks, there is a better way. Using `blkdiscard` offers s
 * It informs the disk that the sectors are no longer in use allowing the disk to make use of them (e.g. for wear-levelling).
 
 ```bash
-blkdiscard /dev/sda
+sudo blkdiscard /dev/sda
 ```
 
 ### Erasing USB/external drives
@@ -108,7 +108,7 @@ cat /dev/zero > /dev/sda1
 dd if=/dev/zero of=/dev/sda1
 ```
 ```bash
-blkdiscard /dev/sda1
+sudo blkdiscard /dev/sda1
 ```
 
 ### Filesystem
@@ -136,7 +136,7 @@ Be sure to allow the command to run to completion in this case and consider runn
 
 For solid-state disks, the `blkdiscard` command offers an option for a secure discard, but it does require support from the device.
 ```bash
-blkdiscard --secure /dev/sda1
+sudo blkdiscard --secure /dev/sda1
 ```
 
 ## Full-disk encryption
