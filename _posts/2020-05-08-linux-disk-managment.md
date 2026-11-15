@@ -4,36 +4,18 @@ title: Linux disk management
 
 # Linux disk management
 
+In all examples:
+* Replace sdX with the appropriate disk device name.
+* Replace sdXY with the appropriate parition device name.
+
 ## Partitioning and formatting
-
-For an encrypted partition, see "Full-disk encryption" below. For non-encrypted paritions see these examples:
-
-Example partition table:
-
-Partition 1 is to be encypted, the remaining three are to bo non-encrypted as per these examples.
-
-```
-Disk /dev/sdb: 931.51 GiB, 1000204886016 bytes, 1953525168 sectors
-Disk model: PSSD T9
-Units: sectors of 1 * 512 = 512 bytes
-Sector size (logical/physical): 512 bytes / 512 bytes
-I/O size (minimum/optimal): 512 bytes / 2097152 bytes
-Disklabel type: dos
-Disk identifier: 0x534ecb55
-
-Device     Boot      Start        End   Sectors   Size Id Type
-/dev/sdb1             4096  650121215 650117120   310G 83 Linux
-/dev/sdb2        650121216 1300238335 650117120   310G 83 Linux
-/dev/sdb3       1300238336 1308626943   8388608     4G  b W95 FAT32
-/dev/sdb4       1308626944 1953525167 644898224 307.5G  7 HPFS/NTFS/exFAT
-```
 
 ### Linux
 
 Example: Create an ext4 formatted partition with volume label "Linux":
 
 1. Use `fdisk` to create a partition of type 0x83 (Linux).
-1. `sudo mkfs.ext4 -L Linux /dev/sdb2`
+1. `sudo mkfs.ext4 -L Linux /dev/sdXY`
 
 ### Cross-platform compatibile
 
@@ -42,12 +24,12 @@ vFAT is highly cross-platform compatible but is limited to a maximum size of 4 G
 Example: Create a VFAT formatted partition with volume label "DOS".
 
 1. Use `fdisk` to create a partition of type 0x0B (W95 FAT32).
-1. `sudo mkfs.vfat -n DOS /dev/sdb3`
+1. `sudo mkfs.vfat -n DOS /dev/sdXY`
 
 If a partition size greater than 4 GiB is required then exFAT can be used. It is still cross-platform compatible, but some older or simpler devices may not support it, e.g.
 
 1. Use `fdisk` to create a parition of type 0x07 (HPFS/NTFS/exFAT).
-1. `sudo mkfs.exfat -L Windows /dev/sdb4`
+1. `sudo mkfs.exfat -L Windows /dev/sdXY`
 
 ## Erasing data
 
@@ -59,17 +41,17 @@ Booting from a "Live" Linux distribution is helpful in this case. It allows the 
 
 A traditional magnetic disk can be erased from a terminal using commands such as
 ```bash
-sudo cat /dev/zero > /dev/sda
+sudo cat /dev/zero > /dev/sdX
 ```
 or
 ```bash
-sudo dd if=/dev/zero of=/dev/sda
+sudo dd if=/dev/zero of=/dev/sdX
 ```
-where /dev/sda is the device of the disk to be erased.
+where /dev/sdX is the device of the disk to be erased.
 
 Erasing an entire disk may take a long time. Often, it is sufficient to erase just the first few sectors. In this case the command can be cancelled with `ctrl-c` once it has progressed far enough or limited from the start, e.g.
 ```bash
-sudo dd if=/dev/zero of=/dev/sda bs=4096 count=1024
+sudo dd if=/dev/zero of=/dev/sdX bs=4096 count=1024
 ```
 
 ### Erasing SSDs
@@ -80,7 +62,7 @@ For modern solid-state disks, there is a better way. Using `blkdiscard` offers s
 * It informs the disk that the sectors are no longer in use allowing the disk to make use of them (e.g. for wear-levelling).
 
 ```bash
-sudo blkdiscard /dev/sda
+sudo blkdiscard /dev/sdX
 ```
 
 ### Erasing USB/external drives
@@ -88,13 +70,13 @@ sudo blkdiscard /dev/sda
 Linux kernels typically do not enable trimming of external USB drives. Therefore, send a unmap command to the SSD controller to indicate that the drive is empty allowing it to instantly erase the content.
 
 ```bash
-sudo umount /dev/sdb* # Unmount any partitions.
-lsblk --discard /dev/sdb # Check if unmap/trip is supported.
+sudo umount /dev/sdX* # Unmount any partitions.
+lsblk --discard /dev/sdX # Check if unmap/trip is supported.
 
 # If DISC-GRAN (discard granularity) and DISC-MAX show zero values then the OS treats the drive as a standard block storage device that does not accept discard instructions and it's necessary to force-enable unmap mode.
 
 echo unmap | sudo tee /sys/block/sdb/device/scsi_disk/*/provisioning_mode # Force-enable unmap mode.
-sudo blkdiscard /dev/sdb # Trim.
+sudo blkdiscard /dev/sdX # Trim.
 ```
 
 ### Partitions
@@ -102,13 +84,13 @@ sudo blkdiscard /dev/sdb # Trim.
 Both of the above commands work just as well on a single partition as on a full disk, e.g.
 
 ```bash
-cat /dev/zero > /dev/sda1
+cat /dev/zero > /dev/sdXY
 ```
 ```bash
-dd if=/dev/zero of=/dev/sda1
+dd if=/dev/zero of=/dev/sdXY
 ```
 ```bash
-sudo blkdiscard /dev/sda1
+sudo blkdiscard /dev/sdXY
 ```
 
 ### Filesystem
@@ -127,7 +109,7 @@ If the disk is being erased because it contains confidential or personal data wh
 
 For magnetic disks, writing random data rather than zeros may make data recovery more difficult, e.g.
 ```bash
-dd if=/dev/urandom of=/dev/sda
+dd if=/dev/urandom of=/dev/sdX
 ```
 Be sure to allow the command to run to completion in this case and consider running multiple passes.
 > Warning: This still does not guarantee full erasure. Data may still exist is sectors that have been swapped out of use because the drive's internal error detection found them to be no longer fully reliable.
@@ -136,7 +118,7 @@ Be sure to allow the command to run to completion in this case and consider runn
 
 For solid-state disks, the `blkdiscard` command offers an option for a secure discard, but it does require support from the device.
 ```bash
-sudo blkdiscard --secure /dev/sda1
+sudo blkdiscard --secure /dev/sdXY
 ```
 
 ## Full-disk encryption
@@ -153,11 +135,11 @@ Modern distributions support full-disk encryption on removable flash drives such
 
 For this to work, the drive may be encrypted as follows:
 
-1. Partition as usual, e.g. `sudo fdisk /dev/sdb`
-1. Format using LUKS, e.g. `sudo luksformat -t ext4 /dev/sdb1 -L SecureDisk`
+1. Partition as usual, e.g. `sudo fdisk /dev/sdX`
+1. Format using LUKS, e.g. `sudo luksformat -t ext4 /dev/sdXY -L SecureDisk`
 
 Where:
-* /dev/sdb is the disk device. For SD cards is will likely be something like /dev/mmcblk0.
-* /dev/sdb1 is the partition. For SD cards is will likely be something like /dev/mmcblk0p1.
+* /dev/sdX is the disk device. For SD cards is will likely be something like /dev/mmcblk0.
+* /dev/sdXY is the partition. For SD cards is will likely be something like /dev/mmcblk0p1.
 * ext4 is the type of filesystem.
 * SecureDisk is the volume label.
