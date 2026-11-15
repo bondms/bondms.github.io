@@ -30,7 +30,7 @@ As per [Enable Developer options](https://developer.android.com/studio/debug/dev
 
 ## Install ADB on the workstation
 
-This will vary depending on the type of workstation available. For a Debian 12 Linux workstation, simply install the packages for ADB and the Adroid SDK platform tools:
+This will vary depending on the type of workstation available. For a Debian Linux workstation, simply install the packages for ADB and the Adroid SDK platform tools:
 
 ```bash
 sudo apt install adb android-sdk-platform-tools-common
